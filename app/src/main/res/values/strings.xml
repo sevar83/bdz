@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">BDZ Schedule</string>
+    <string name="title_timetables">Time Table</string>
+    <string name="title_schedule">Schedule</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="allowed_station_chars">абвгдежзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ .,-1234567890</string>
+    <string name="content_description_swap_icon">Swap icon</string>
+    <string name="hint_from">From</string>
+    <string name="hint_to">To</string>
+    <string name="loading_failed">Loading failed ;(</string>
+    <string name="duration_hours_minutes">%1$s %2$s</string>
+    <string name="tab_arrivals">Arrivals</string>
+    <string name="tab_departures">Departures</string>
+    <string name="from_s">from %s</string>
+    <string name="to_s">to %s</string>
+    <string name="station">Station</string>
+    <string name="hint_date">Date</string>
+    <string name="today_s">Today, %s</string>
+    <string name="tomorrow_s">Tomorrow, %s</string>
+
+    <plurals name="d_transfers">
+        <item quantity="one">%d transfer</item>
+        <item quantity="other">%d transfers</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d h</item>
+        <item quantity="other">%d hrs</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d min</item>
+        <item quantity="other">%d min</item>
+    </plurals>
+</resources>

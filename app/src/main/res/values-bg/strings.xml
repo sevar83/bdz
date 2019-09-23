@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">БДЖ Разписание</string>
+    <string name="title_timetables">Електронно табло</string>
+    <string name="title_schedule">Разписание</string>
+    <string name="title_notifications">Известия</string>
+    <string name="allowed_station_chars">абвгдежзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ .,-1234567890</string>
+    <string name="content_description_swap_icon">Икона за размяна на тръгване и пристигане</string>
+    <string name="hint_from">Тръгва от</string>
+    <string name="hint_to">Пристига в</string>
+    <string name="loading_failed">Неуспешно зареждане ;(</string>
+    <string name="duration_hours_minutes">%1$s %2$s</string>
+    <string name="tab_arrivals">Пристигащи</string>
+    <string name="tab_departures">Заминаващи</string>
+    <string name="from_s">от %s</string>
+    <string name="to_s">за %s</string>
+    <string name="station">Гара</string>
+    <string name="hint_date">Дата на заминаване</string>
+    <string name="today_s">Днес, %s</string>
+    <string name="tomorrow_s">Утре, %s</string>
+
+    <plurals name="d_transfers">
+        <item quantity="one">%d прекачванe</item>
+        <item quantity="other">%d прекачвания</item>
+    </plurals>
+
+    <plurals name="hours">
+        <item quantity="one">%d час</item>
+        <item quantity="other">%d часа</item>
+    </plurals>
+
+    <plurals name="minutes">
+        <item quantity="one">%d мин</item>
+        <item quantity="other">%d мин</item>
+    </plurals>
+</resources>

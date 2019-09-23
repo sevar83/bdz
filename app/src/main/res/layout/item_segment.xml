@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <TextView
+        android:id="@+id/segmentFromTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="8dp"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        tools:text="ВЕЛИКО ТЪРНОВО"
+        />
+
+    <TextView
+        android:id="@+id/segmentToTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_weight="100"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:maxLines="2"
+        tools:text="ГОРНА ОРЯХОВИЦА 123 123 123 12 3"
+        />
+
+    <TextView
+        android:id="@+id/segmentTrainType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="12sp"
+        android:ellipsize="end"
+        android:layout_margin="8dp"
+        tools:text="БВЗР"
+        />
+
+    <TextView
+        android:id="@+id/segmentDepartTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="12sp"
+        tools:text="12:31"
+        />
+
+    <TextView
+        android:id="@+id/segmentArrivеTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="8dp"
+        android:textSize="12sp"
+        tools:text="12:31"
+        />
+
+
+</LinearLayout>
