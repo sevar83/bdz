@@ -39,6 +39,9 @@ class ScheduleViewModel(
     private val _recentSearches = MutableLiveData<List<String>>()
     val recentSearches: LiveData<List<String>> = _recentSearches
 
+    private val _refreshing = MutableLiveData<Boolean>()
+    val refreshing: LiveData<Boolean> = _refreshing
+
     private var swapInProgress = false
 
     init {
@@ -107,6 +110,11 @@ class ScheduleViewModel(
         _fromStation.value = temp
     }
 
+    fun refresh() {
+        _refreshing.value = true
+        _fromStation.value = _fromStation.value
+    }
+
     private fun loadSchedule(fromStation: Station?, toStation: Station?, date: LocalDate?): LiveData<ScheduleState> {
         return liveData(viewModelScope.coroutineContext + Dispatchers.IO) {
             if (fromStation == toStation) {
@@ -122,6 +130,8 @@ class ScheduleViewModel(
                 } catch (e: Exception) {
                     Log.e("ScheduleViewModel", e.message)
                     emit(ScheduleState.Error(e))
+                } finally {
+                    _refreshing.postValue(false)
                 }
             }
         }

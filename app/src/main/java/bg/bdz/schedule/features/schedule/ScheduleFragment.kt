@@ -46,6 +46,10 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        // SwipeToRefresh
+
+        swipeContainer.setOnRefreshListener(viewModel::refresh)
+
         // From/To fields
 
         initializeFromSearchView()
@@ -77,6 +81,10 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
+        viewModel.refreshing.observe(viewLifecycleOwner) { isRefreshing ->
+            swipeContainer.isRefreshing = isRefreshing
+        }
 
         viewModel.date.observe(viewLifecycleOwner, ::renderDate)
         viewModel.schedule.observe(this, ::renderSchedule)

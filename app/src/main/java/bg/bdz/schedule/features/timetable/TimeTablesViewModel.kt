@@ -24,6 +24,12 @@ class TimeTablesViewModel(
     private val _recentSearches = MutableLiveData<List<String>>()
     val recentSearches: LiveData<List<String>> = _recentSearches
 
+    private val _refreshingArrivals = MutableLiveData<Boolean>()
+    val refreshingArrivals: LiveData<Boolean> = _refreshingArrivals
+
+    private val _refreshingDepartures = MutableLiveData<Boolean>()
+    val refreshingDepartures: LiveData<Boolean> = _refreshingDepartures
+
     init {
         station.observeForever { station ->
             state.set(KEY_STATION, station.name)
@@ -40,6 +46,12 @@ class TimeTablesViewModel(
         }
     }
 
+    fun refresh() {
+        _station.value = _station.value
+        _refreshingArrivals.value = true
+        _refreshingDepartures.value = true
+    }
+
     val arriving: LiveData<TimeTableState> = _station
         .switchMap { station ->
             liveData(viewModelScope.coroutineContext + Dispatchers.IO) {
@@ -49,6 +61,8 @@ class TimeTablesViewModel(
                 } catch (e: Exception) {
                     Log.e(LOG_TAG, "Failed to load arriving timetable for ${station.name}", e)
                     emit(TimeTableState.Error(e))
+                } finally {
+                    _refreshingArrivals.postValue(false)
                 }
             }
         }
@@ -62,6 +76,8 @@ class TimeTablesViewModel(
                 } catch (e: Exception) {
                     Log.e(LOG_TAG, "Failed to load departing timetable for ${station.name}", e)
                     emit(TimeTableState.Error(e))
+                } finally {
+                    _refreshingDepartures.postValue(false)
                 }
             }
         }

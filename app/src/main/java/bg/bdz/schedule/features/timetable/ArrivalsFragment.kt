@@ -39,6 +39,8 @@ class ArrivalsFragment : Fragment(R.layout.fragment_timetable) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         super.onViewCreated(view, savedInstanceState)
 
+        swipeContainer.setOnRefreshListener(viewModel::refresh)
+
         val layoutManager = LinearLayoutManager(context)
         recyclerView.layoutManager = layoutManager
         adapter = TrainStatusAdapter(isArriving = true)
@@ -50,6 +52,10 @@ class ArrivalsFragment : Fragment(R.layout.fragment_timetable) {
 
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
+
+        viewModel.refreshingArrivals.observe(viewLifecycleOwner) { isRefreshing ->
+            swipeContainer.isRefreshing = isRefreshing
+        }
 
         viewModel.arriving.observe(viewLifecycleOwner, ::render)
     }
