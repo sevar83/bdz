@@ -3,12 +3,14 @@ package bg.bdz.schedule.features.timetable
 import android.content.Context
 import android.os.Bundle
 import android.view.View
+import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.FragmentManager
 import androidx.fragment.app.FragmentStatePagerAdapter
 import androidx.lifecycle.ViewModelProvider
 import androidx.lifecycle.observe
+import androidx.viewpager.widget.ViewPager
 import bg.bdz.schedule.R
 import bg.bdz.schedule.di.Dependencies
 import bg.bdz.schedule.features.stations.SearchHistory
@@ -17,6 +19,7 @@ import bg.bdz.schedule.features.stations.StationsAdapter
 import bg.bdz.schedule.models.Station
 import bg.bdz.schedule.utils.KeyboardEventListener
 import bg.bdz.schedule.utils.updateText
+import com.google.android.material.button.MaterialButton
 import kotlinx.android.synthetic.main.fragment_timetables_pager.*
 
 class TimeTablesFragment : Fragment(R.layout.fragment_timetables_pager) {
@@ -43,6 +46,36 @@ class TimeTablesFragment : Fragment(R.layout.fragment_timetables_pager) {
     override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
         pagerAdapter = PagerAdapter(view.context, childFragmentManager)
         pager.adapter = pagerAdapter
+        pager.addOnPageChangeListener(object : ViewPager.OnPageChangeListener{
+            override fun onPageScrollStateChanged(state: Int) {}
+
+            override fun onPageScrolled(position: Int, positionOffset: Float, positionOffsetPixels: Int) {}
+
+            override fun onPageSelected(position: Int) {
+                viewModel.setCurrentPage(position)
+            }
+        })
+
+        timeTablesButtonGroup.addOnButtonCheckedListener { _, checkedId, isChecked ->
+            if (isChecked) {
+                viewModel.setCurrentPage(checkedId)
+            }
+        }
+        repeat(pagerAdapter.count) { position ->
+            timeTablesButtonGroup.addView(
+                MaterialButton(requireContext(), null, R.attr.materialButtonOutlinedStyle).apply {
+                    id = position
+                    layoutParams = ViewGroup.LayoutParams(
+                        ViewGroup.LayoutParams.WRAP_CONTENT,
+                        ViewGroup.LayoutParams.WRAP_CONTENT
+                    )
+                    text = pagerAdapter.getPageTitle(position)
+                }
+            )
+        }
+        if (savedInstanceState == null) {
+            timeTablesButtonGroup.check(PAGE_DEPARTURES)
+        }
 
         initializeStation()
     }
@@ -56,6 +89,10 @@ class TimeTablesFragment : Fragment(R.layout.fragment_timetables_pager) {
         }
         viewModel.recentSearches.observe(viewLifecycleOwner) { searches ->
             stationsAdapter.setRecentSearches(searches)
+        }
+        viewModel.currentPage.observe(viewLifecycleOwner) { currentPage ->
+            pager.currentItem = currentPage
+            timeTablesButtonGroup.check(currentPage)
         }
     }
 

@@ -21,6 +21,9 @@ class TimeTablesViewModel(
     private val _station = MutableLiveData<Station>()
     val station: LiveData<Station> = _station
 
+    private val _currentPage = MutableLiveData<Int>()
+    val currentPage: LiveData<Int> = _currentPage
+
     private val _recentSearches = MutableLiveData<List<String>>()
     val recentSearches: LiveData<List<String>> = _recentSearches
 
@@ -99,6 +102,10 @@ class TimeTablesViewModel(
     private fun addToRecentSearches(newSearch: String) {
         searchHistory.add(newSearch)
         _recentSearches.value = searchHistory.getList()
+    }
+
+    fun setCurrentPage(page: Int) {
+        _currentPage.postValue(page)
     }
 
     @Suppress("UNCHECKED_CAST")
