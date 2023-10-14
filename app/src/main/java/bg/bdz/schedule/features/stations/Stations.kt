@@ -1,13 +1,8 @@
 package bg.bdz.schedule.features.stations
 
-import bg.bdz.schedule.models.Station
-
-/**
- * Created by Svetlozar Kostadinov on 06.09.19.
- */
 object Stations {
 
-    val STATIONS: List<Station> = listOf(
+    /*val STATIONS: List<Station> = listOf(
         "A",
         "АБЛАНИЦА",
         "АВРАМОВО",
@@ -754,5 +749,5 @@ object Stations {
         "ЯСЕНОВЕЦ",
         "ЯСТРЕБОВО",
         "ЯХИНОВО"
-    ).map(::Station)
+    ).map(::Station)*/
 }

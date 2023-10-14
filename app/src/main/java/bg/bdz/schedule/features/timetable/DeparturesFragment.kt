@@ -2,19 +2,23 @@ package bg.bdz.schedule.features.timetable
 
 import android.content.Context
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.lifecycle.ViewModelProvider
-import androidx.lifecycle.observe
 import androidx.recyclerview.widget.DividerItemDecoration
 import androidx.recyclerview.widget.LinearLayoutManager
 import bg.bdz.schedule.R
+import bg.bdz.schedule.databinding.FragmentTimetableBinding
 import bg.bdz.schedule.di.Dependencies
-import kotlinx.android.synthetic.main.fragment_timetable.*
-import kotlinx.android.synthetic.main.include_empty.*
 
+@Suppress("COMPATIBILITY_WARNING")
 class DeparturesFragment : Fragment(R.layout.fragment_timetable) {
+
+    private var _binding: FragmentTimetableBinding? = null
+    private val binding: FragmentTimetableBinding get() = _binding!!
 
     private lateinit var viewModel: TimeTablesViewModel
 
@@ -30,11 +34,20 @@ class DeparturesFragment : Fragment(R.layout.fragment_timetable) {
                 Dependencies.provideSearchHistory(),
                 requireActivity()
             )
-        )
-            .get(TimeTablesViewModel::class.java)
+        )[TimeTablesViewModel::class.java]
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View {
+        _binding = FragmentTimetableBinding.inflate(inflater, container, false)
+        val view = binding.root
+        return view
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
 
         swipeContainer.setOnRefreshListener(viewModel::refresh)
@@ -48,7 +61,7 @@ class DeparturesFragment : Fragment(R.layout.fragment_timetable) {
         recyclerView.addItemDecoration(divider)
     }
 
-    override fun onActivityCreated(savedInstanceState: Bundle?) {
+    override fun onActivityCreated(savedInstanceState: Bundle?): Unit = with(binding) {
         super.onActivityCreated(savedInstanceState)
 
         viewModel.refreshingDepartures.observe(viewLifecycleOwner) { isRefreshing ->
@@ -58,10 +71,15 @@ class DeparturesFragment : Fragment(R.layout.fragment_timetable) {
         viewModel.departing.observe(viewLifecycleOwner, ::render)
     }
 
-    private fun render(timeTableState: TimeTableState) {
+    override fun onDestroyView() {
+        _binding = null
+        super.onDestroyView()
+    }
+
+    private fun render(timeTableState: TimeTableState) = with(binding) {
         when (timeTableState) {
             is TimeTableState.Loading -> {
-                emptyView.isVisible = false
+                emptyView.root.isVisible = false
                 errorTextView.isVisible = false
                 progressBar.show()
                 adapter.submitList(emptyList())
@@ -71,15 +89,15 @@ class DeparturesFragment : Fragment(R.layout.fragment_timetable) {
                 progressBar.hide()
                 adapter.submitList(timeTableState.trains)
                 if (timeTableState.trains.isNotEmpty()) {
-                    emptyView.isVisible = false
+                    emptyView.root.isVisible = false
                     recyclerView.isVisible = true
                 } else {
-                    emptyView.isVisible = true
+                    emptyView.root.isVisible = true
                     recyclerView.isVisible = false
                 }
             }
             is TimeTableState.Error -> {
-                emptyView.isVisible = false
+                emptyView.root.isVisible = false
                 errorTextView.isVisible = true
                 progressBar.hide()
                 adapter.submitList(emptyList())

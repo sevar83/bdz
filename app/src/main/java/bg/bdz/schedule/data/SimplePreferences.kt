@@ -2,10 +2,6 @@ package bg.bdz.schedule.data
 
 import android.content.SharedPreferences
 
-/**
- * Created by Svetlozar Kostadinov on 08.09.19.
- */
-
 class SimplePreferences(
     val preferences: SharedPreferences
 ) {

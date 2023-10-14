@@ -4,7 +4,6 @@ import android.app.Activity
 import android.content.Context
 import android.content.res.Configuration
 import android.graphics.Color
-import android.os.Build
 import android.os.Bundle
 import android.os.SystemClock
 import android.util.TypedValue
@@ -14,12 +13,6 @@ import androidx.annotation.ColorInt
 import androidx.core.content.ContextCompat
 import androidx.core.os.bundleOf
 import androidx.fragment.app.Fragment
-
-
-
-/**
- * Created by Svetlozar Kostadinov on 16.09.19.
- */
 
 fun View.setOnSingleClickListener(block: () -> Unit) {
     setOnClickListener(OnSingleClickListener(block))
@@ -48,15 +41,6 @@ fun <F : Fragment> F.withArgs(vararg pairs: Pair<String, Any?>): F {
     return this
 }
 
-fun Collection<String>.containsIgnoreCase(soughtFor: String): Boolean {
-    for (current in this) {
-        if (current.equals(soughtFor, ignoreCase = true)) {
-            return true
-        }
-    }
-    return false
-}
-
 @ColorInt
 fun Context.getThemeColor(themeAttributeId: Int): Int {
     val outValue = TypedValue()
@@ -69,12 +53,10 @@ fun Context.getThemeColor(themeAttributeId: Int): Int {
 }
 
 fun Window.setLightStatusBar(@ColorInt color: Int) {
-    if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
-        var flags = decorView.systemUiVisibility // get current flag
-        flags = flags or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR   // add LIGHT_STATUS_BAR to flag
-        decorView.systemUiVisibility = flags
-        statusBarColor = color // optional
-    }
+    var flags = decorView.systemUiVisibility // get current flag
+    flags = flags or View.SYSTEM_UI_FLAG_LIGHT_STATUS_BAR   // add LIGHT_STATUS_BAR to flag
+    decorView.systemUiVisibility = flags
+    statusBarColor = color // optional
 }
 
 val Activity.isNightMode get(): Boolean {
@@ -84,5 +66,16 @@ val Activity.isNightMode get(): Boolean {
         Configuration.UI_MODE_NIGHT_YES -> true    // Night mode is active, we're using dark theme
         else -> false
     }
+}
 
+val Activity.rootView: View get() {
+    return findViewById<View>(android.R.id.content)
+}
+
+fun Context.convertDpToPx(dp: Float): Float {
+    return TypedValue.applyDimension(
+        TypedValue.COMPLEX_UNIT_DIP,
+        dp,
+        this.resources.displayMetrics
+    )
 }

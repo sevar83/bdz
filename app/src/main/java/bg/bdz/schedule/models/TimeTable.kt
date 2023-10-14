@@ -1,8 +1,8 @@
 package bg.bdz.schedule.models
 
-/**
- * Created by Svetlozar Kostadinov on 9/3/2019.
- */
+import pl.droidsonroids.jspoon.annotation.Selector
+
 data class TimeTable(
-    val trainStatuses: List<TrainStatus> = emptyList()
+    @Selector("div.timetableItem > div.row")
+    var trainStatuses: List<TrainStatus> = emptyList()
 )

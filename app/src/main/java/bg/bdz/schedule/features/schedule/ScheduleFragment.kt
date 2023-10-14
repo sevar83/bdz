@@ -1,34 +1,39 @@
+@file:Suppress("COMPATIBILITY_WARNING")
+
 package bg.bdz.schedule.features.schedule
 
 import android.app.Activity.RESULT_OK
 import android.content.Intent
 import android.os.Bundle
+import android.view.LayoutInflater
 import android.view.View
+import android.view.ViewGroup
 import android.widget.AdapterView
 import androidx.core.view.isVisible
 import androidx.fragment.app.Fragment
 import androidx.fragment.app.viewModels
-import androidx.lifecycle.observe
 import androidx.recyclerview.widget.LinearLayoutManager
 import bg.bdz.schedule.R
+import bg.bdz.schedule.databinding.FragmentScheduleBinding
 import bg.bdz.schedule.di.Dependencies
 import bg.bdz.schedule.features.datepicker.DatePickerFragment
 import bg.bdz.schedule.features.stations.SearchHistory
-import bg.bdz.schedule.features.stations.Stations
 import bg.bdz.schedule.features.stations.StationsAdapter
 import bg.bdz.schedule.models.Station
+import bg.bdz.schedule.network.Bdz
 import bg.bdz.schedule.utils.KeyboardEventListener
 import bg.bdz.schedule.utils.SeparateOnScrollDownListener
 import bg.bdz.schedule.utils.setOnSingleClickListener
 import bg.bdz.schedule.utils.updateText
-import kotlinx.android.synthetic.main.fragment_schedule.*
-import kotlinx.android.synthetic.main.include_empty.*
-import org.threeten.bp.LocalDate
-import org.threeten.bp.format.DateTimeFormatter
-import org.threeten.bp.format.FormatStyle
+import java.time.LocalDate
+import java.time.format.DateTimeFormatter
+import java.time.format.FormatStyle
 
 
-class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
+class ScheduleFragment : Fragment() {
+
+    private var _binding: FragmentScheduleBinding? = null
+    private val binding: FragmentScheduleBinding get() = _binding!!
 
     private lateinit var adapter: TrainAdapter
 
@@ -43,7 +48,22 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
         )
     }
 
-    override fun onViewCreated(view: View, savedInstanceState: Bundle?) {
+    override fun onCreateView(
+        inflater: LayoutInflater,
+        container: ViewGroup?,
+        savedInstanceState: Bundle?
+    ): View? {
+        _binding = FragmentScheduleBinding.inflate(inflater, container, false)
+        val view = binding.root
+        return view
+    }
+
+    override fun onDestroyView() {
+        super.onDestroyView()
+        _binding = null
+    }
+
+    override fun onViewCreated(view: View, savedInstanceState: Bundle?) = with(binding) {
         super.onViewCreated(view, savedInstanceState)
 
         // SwipeToRefresh
@@ -82,30 +102,33 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
     override fun onActivityCreated(savedInstanceState: Bundle?) {
         super.onActivityCreated(savedInstanceState)
 
-        viewModel.refreshing.observe(viewLifecycleOwner) { isRefreshing ->
-            swipeContainer.isRefreshing = isRefreshing
-        }
+        with(binding) {
+            viewModel.refreshing.observe(viewLifecycleOwner) { isRefreshing ->
+                swipeContainer.isRefreshing = isRefreshing
+            }
 
-        viewModel.date.observe(viewLifecycleOwner, ::renderDate)
-        viewModel.schedule.observe(this, ::renderSchedule)
+            viewModel.date.observe(viewLifecycleOwner, ::renderDate)
+            viewModel.schedule.observe(viewLifecycleOwner, ::renderSchedule)
 
-        viewModel.fromStation.observe(viewLifecycleOwner) { station ->
-            fromSearchView.updateText(station.name)
-            fromSearchView.approveAsValid()
-        }
+            viewModel.fromStation.observe(viewLifecycleOwner) { station ->
+                fromSearchView.updateText(station.name)
+                fromSearchView.approveAsValid()
+            }
 
-        viewModel.toStation.observe(viewLifecycleOwner) { station ->
-            toSearchView.updateText(station.name)
-            toSearchView.approveAsValid()
-        }
+            viewModel.toStation.observe(viewLifecycleOwner) { station ->
+                toSearchView.updateText(station.name)
+                toSearchView.approveAsValid()
+            }
 
-        viewModel.recentSearches.observe(viewLifecycleOwner) { searches ->
-            fromAdapter.setRecentSearches(searches)
-            toAdapter.setRecentSearches(searches)
+            // FIXME disabled until StationsAdapter sync problems are fixed
+            /*viewModel.recentSearches.observe(viewLifecycleOwner) { searches ->
+                fromAdapter.setRecentSearches(searches)
+                toAdapter.setRecentSearches(searches)
+            }*/
         }
     }
 
-    private fun renderDate(date: LocalDate) {
+    private fun renderDate(date: LocalDate) = with(binding) {
         val dateText = DATE_FORMATTER.format(date)
         when (date) {
             // Today
@@ -117,16 +140,16 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
         }
     }
 
-    private fun initializeFromSearchView() {
+    private fun initializeFromSearchView() = with(binding) {
         fromAdapter = StationsAdapter(
             context = requireActivity(),
-            originalItems = Stations.STATIONS,
-            maxRecentsCount = SearchHistory.MAX_RECENT_SEARCHES
+            originalItems = Bdz.stations,
+            maxRecentsCount = SearchHistory.MAX_RECENTS
         )
         fromSearchView.setAdapter(fromAdapter)
         fromSearchView.isDropDownAlwaysVisible = true
         fromSearchView.onActionListener = {
-            val station = fromAdapter.findStation(Station(fromSearchView.text.toString()))
+            val station = fromAdapter.findStation(fromSearchView.text.toString())
             updateFromStation(station)
         }
         fromSearchView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
@@ -138,23 +161,23 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
             fromSearchView.showDropDown()
         }
         fromSearchView.setOnDismissListener {
-            val station = fromAdapter.findStation(Station(fromSearchView.text.toString()))
+            val station = fromAdapter.findStation(fromSearchView.text.toString())
             if (station != null) {
                 fromSearchView.dismissKeybardAndClearFocus(requireActivity())
             }
         }
     }
 
-    private fun initializeToSearchView() {
+    private fun initializeToSearchView() = with(binding) {
         toAdapter = StationsAdapter(
             context = requireActivity(),
-            originalItems = Stations.STATIONS,
-            maxRecentsCount = SearchHistory.MAX_RECENT_SEARCHES
+            originalItems = Bdz.stations,
+            maxRecentsCount = SearchHistory.MAX_RECENTS
         )
         toSearchView.setAdapter(toAdapter)
         toSearchView.isDropDownAlwaysVisible = true
         toSearchView.onActionListener = {
-            val station = toAdapter.findStation(Station(toSearchView.text.toString()))
+            val station = toAdapter.findStation(toSearchView.text.toString())
             updateToStation(station)
         }
         toSearchView.onItemClickListener = AdapterView.OnItemClickListener { _, _, position, _ ->
@@ -166,28 +189,28 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
             toSearchView.showDropDown()
         }
         toSearchView.setOnDismissListener {
-            val station = toAdapter.findStation(Station(toSearchView.text.toString()))
+            val station = toAdapter.findStation(toSearchView.text.toString())
             if (station != null) {
                 toSearchView.dismissKeybardAndClearFocus(requireActivity())
             }
         }
     }
 
-    private fun updateFromStation(station: Station?) {
+    private fun updateFromStation(station: Station?) = with(binding) {
         if (station != null && station.name.length > 1) {
             viewModel.onFromStationChanged(station)
             fromSearchView.dismissKeybardAndClearFocus(requireActivity())
         }
     }
 
-    private fun updateToStation(station: Station?) {
+    private fun updateToStation(station: Station?) = with(binding) {
         if (station != null && station.name.length > 1) {
             viewModel.onToStationChanged(station)
             toSearchView.dismissKeybardAndClearFocus(requireActivity())
         }
     }
 
-    private fun clearFocus() {
+    private fun clearFocus() = with(binding) {
         fromSearchView.clearFocus()
         toSearchView.clearFocus()
         dateEditText.clearFocus()
@@ -205,12 +228,12 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
         }
     }
 
-    private fun renderSchedule(schedule: ScheduleState) {
+    private fun renderSchedule(schedule: ScheduleState) = with(binding) {
         when (schedule) {
             is ScheduleState.Loading -> {
                 errorTextView.isVisible = false
                 progressBar.show()
-                emptyView.isVisible = false
+                emptyView.root.isVisible = false
                 adapter.submitList(emptyList())
             }
             is ScheduleState.Success -> {
@@ -222,17 +245,17 @@ class ScheduleFragment : Fragment(R.layout.fragment_schedule) {
 
                 adapter.submitList(schedule.trains)
                 if (schedule.trains.isNotEmpty()) {
-                    emptyView.isVisible = false
+                    emptyView.root.isVisible = false
                     recyclerView.isVisible = true
                 } else {
-                    emptyView.isVisible = true
+                    emptyView.root.isVisible = true
                     recyclerView.isVisible = false
                 }
             }
             is ScheduleState.Error -> {
                 errorTextView.isVisible = true
                 progressBar.hide()
-                emptyView.isVisible = false
+                emptyView.root.isVisible = false
                 adapter.submitList(emptyList())
             }
         }

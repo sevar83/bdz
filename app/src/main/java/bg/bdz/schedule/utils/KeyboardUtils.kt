@@ -2,8 +2,10 @@ package bg.bdz.schedule.utils
 
 import android.app.Activity
 import android.content.Context
+import android.graphics.Rect
 import android.view.View
 import android.view.inputmethod.InputMethodManager
+import kotlin.math.roundToInt
 
 /**
  * Utility methods for manipulating the onscreen keyboard
@@ -30,4 +32,16 @@ object KeyboardUtils {
         view.requestFocus()
         inputMethodManager.showSoftInput(view, 0)
     }
+}
+
+fun Activity.isKeyboardOpen(): Boolean {
+    val visibleBounds = Rect()
+    this.rootView.getWindowVisibleDisplayFrame(visibleBounds)
+    val heightDiff = rootView.height - visibleBounds.height()
+    val marginOfError = this.convertDpToPx(50f).roundToInt()
+    return heightDiff > marginOfError
+}
+
+fun Activity.isKeyboardClosed(): Boolean {
+    return !this.isKeyboardOpen()
 }

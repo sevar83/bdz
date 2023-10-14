@@ -1,49 +1,32 @@
 package bg.bdz.schedule.models
 
+import androidx.annotation.Keep
+import bg.bdz.schedule.serialization.RouteSplittingConverter
+import bg.bdz.schedule.serialization.TimesSplittingConverter
 import pl.droidsonroids.jspoon.annotation.Selector
 
-/**
- * Created by Svetlozar Kostadinov on 8/28/2019.
- */
-class Train {
-    @Selector("#myid > td:nth-child(1)") var ordinal: Int = 0
-    @Selector("#myid > td:nth-child(2)") lateinit var departTime: String
-    @Selector("#myid > td:nth-child(3)") lateinit var arriveTime: String
-    @Selector("#myid > td:nth-child(4)") lateinit var category: String
-    @Selector("#myid > td:nth-child(5)") var transferCount: Int = 0
-    @Selector("#myid > td:nth-child(6)") lateinit var duration: String
-    @Selector("#myid > td:nth-child(7)") lateinit var comments: String
+data class Train(
+    @Selector("div.row div.col span.badge")
+    var ordinal: Int = 0,
 
-    @Selector("div.cont tr[align=left]") lateinit var segments: List<Segment>
+    @Selector("div.schedule-table > div.row :containsOwn( - )", attr="html", defValue = "", converter = RouteSplittingConverter::class)
+    var stations: List<String> = emptyList(),
 
-    override fun equals(other: Any?): Boolean {
-        if (this === other) return true
-        if (javaClass != other?.javaClass) return false
+    @Selector("b.schedule-time", converter = TimesSplittingConverter::class)
+    var times: List<String> = emptyList(),
 
-        other as Train
+    // TODO
+    var transferCount: Int = 0,
 
-        if (ordinal != other.ordinal) return false
-        if (departTime != other.departTime) return false
-        if (arriveTime != other.arriveTime) return false
-        if (category != other.category) return false
-        if (transferCount != other.transferCount) return false
-        if (duration != other.duration) return false
-        if (comments != other.comments) return false
-        if (segments != other.segments) return false
+    @Selector("div.schedule-table :containsOwn( ч.)", defValue = "0:00 ч.")
+    var duration: String = "",
 
-        return true
-    }
+    @Selector("div.schedule-note")
+    var note: String = "",
 
-    override fun hashCode(): Int {
-        var result = ordinal
-        result = 31 * result + departTime.hashCode()
-        result = 31 * result + arriveTime.hashCode()
-        result = 31 * result + category.hashCode()
-        result = 31 * result + transferCount
-        result = 31 * result + duration.hashCode()
-        result = 31 * result + comments.hashCode()
-        result = 31 * result + segments.hashCode()
-        return result
-    }
+    @Selector("div.schedule-changes > div.row")
+    var waypoints: List<WaypointStation> = emptyList(),
 
-}
+    @Selector("div.schedule-table span.train-number")
+    var trainNumber: String = ""
+)

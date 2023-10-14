@@ -25,7 +25,10 @@
         tools:visibility="visible"
         />
 
-    <include layout="@layout/include_empty" />
+    <include
+        android:id="@+id/emptyView"
+        layout="@layout/include_empty"
+        />
 
     <androidx.swiperefreshlayout.widget.SwipeRefreshLayout
         android:id="@+id/swipeContainer"

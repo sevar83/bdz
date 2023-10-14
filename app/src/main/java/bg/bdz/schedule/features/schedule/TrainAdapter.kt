@@ -4,19 +4,16 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
 import androidx.recyclerview.widget.ListAdapter
-import bg.bdz.schedule.R
+import bg.bdz.schedule.databinding.ItemTrainBinding
 import bg.bdz.schedule.models.Train
 
-/**
- * Created by Svetlozar Kostadinov on 8/28/2019.
- */
 class TrainAdapter : ListAdapter<Train, TrainViewHolder>(
     DIFF_CALLBACK
 ) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TrainViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_train, parent, false)
-        return TrainViewHolder(itemView)
+        val itemBinding = ItemTrainBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return TrainViewHolder(itemBinding)
     }
 
     override fun onBindViewHolder(holder: TrainViewHolder, position: Int) {
@@ -26,7 +23,7 @@ class TrainAdapter : ListAdapter<Train, TrainViewHolder>(
     companion object {
         val DIFF_CALLBACK = object : ItemCallback<Train>() {
             override fun areItemsTheSame(oldItem: Train, newItem: Train): Boolean {
-                return oldItem.departTime == newItem.departTime
+                return oldItem.times == newItem.times
             }
 
             override fun areContentsTheSame(oldItem: Train, newItem: Train): Boolean {

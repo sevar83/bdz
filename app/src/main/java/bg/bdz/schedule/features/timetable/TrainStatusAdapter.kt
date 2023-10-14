@@ -4,19 +4,16 @@ import android.view.LayoutInflater
 import android.view.ViewGroup
 import androidx.recyclerview.widget.DiffUtil.ItemCallback
 import androidx.recyclerview.widget.ListAdapter
-import bg.bdz.schedule.R
+import bg.bdz.schedule.databinding.ItemTrainStatusBinding
 import bg.bdz.schedule.models.TrainStatus
 
-/**
- * Created by Svetlozar Kostadinov on 8/28/2019.
- */
 class TrainStatusAdapter(
     private val isArriving: Boolean
 ) : ListAdapter<TrainStatus, TrainStatusViewHolder>(DIFF_CALLBACK) {
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): TrainStatusViewHolder {
-        val itemView = LayoutInflater.from(parent.context).inflate(R.layout.item_train_status, parent, false)
-        return TrainStatusViewHolder(itemView, isArriving)
+        val itemBinding = ItemTrainStatusBinding.inflate(LayoutInflater.from(parent.context), parent, false)
+        return TrainStatusViewHolder(itemBinding, isArriving)
     }
 
     override fun onBindViewHolder(holder: TrainStatusViewHolder, position: Int) {

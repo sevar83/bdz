@@ -8,10 +8,10 @@ import android.widget.TextView
 import androidx.annotation.ColorInt
 import androidx.annotation.DrawableRes
 import androidx.annotation.LayoutRes
+import androidx.appcompat.content.res.AppCompatResources
 import bg.bdz.schedule.R
 import bg.bdz.schedule.features.base.SimpleArrayAdapter
 import bg.bdz.schedule.models.Station
-import bg.bdz.schedule.utils.containsIgnoreCase
 import bg.bdz.schedule.utils.getThemeColor
 
 
@@ -30,8 +30,8 @@ class StationsAdapter(
     itemLayout,
     ArrayList(originalItems)
 ) {
-    private val recentsIcon: Drawable = requireNotNull(context.getDrawable(recentsIconRes))
-    @ColorInt private val recentsIconColor: Int = context.getThemeColor(R.attr.colorSecondary)
+    private val recentsIcon: Drawable = requireNotNull(AppCompatResources.getDrawable(context, recentsIconRes))
+    @ColorInt private val recentsIconColor: Int = context.getThemeColor(com.google.android.material.R.attr.colorSecondary)
 
     init {
         require(maxRecentsCount >= 0) { "Non-negative maxRecentsCount expected" }
@@ -41,7 +41,7 @@ class StationsAdapter(
      * A list of recently searched string that are always prepended at the beginning of the list.
      * Only a limitted count equal to [maxRecentsCount] are shown.
      */
-    private var searches: List<String> = emptyList()
+    private var recents: Set<Station> = emptySet()
 
     class StationViewHolder : ViewHolder() {
         lateinit var textView: TextView
@@ -56,7 +56,7 @@ class StationsAdapter(
     override fun bindViewHolder(viewHolder: StationViewHolder, item: Station, position: Int) {
         viewHolder.textView.text = item.name
         when {
-            searches.containsIgnoreCase(item.name) -> {
+            recents.find { it.name.equals(item.name, ignoreCase = true) } != null -> {
                 // Recent search item
                 viewHolder.textView.setTypeface(Typeface.DEFAULT, Typeface.BOLD)
                 viewHolder.textView.setCompoundDrawablesWithIntrinsicBounds(null, null, recentsIcon, null)
@@ -76,30 +76,30 @@ class StationsAdapter(
         }
     }
 
-    fun findStation(station: Station): Station? {
+    fun findStation(name: String): Station? {
         return (0 until count)
             .asSequence()
-            .map { position -> getItem(position) }
+            .map(::getItem)
             .filterNotNull()
-            .filter { station.name.length > 1 }
-            .find { current -> current.name.equals(station.name, ignoreCase = true) }
+            .filter { name.length > 1 }
+            .find { current -> current.name.equals(name, ignoreCase = true) }
     }
 
-    fun setRecentSearches(searches: List<String>) {
+    fun setRecentSearches(recents: List<Station>) {
         synchronized (mLock) {
-            // Remove the existing recent search items from the list beginning
-            if (this.searches.isNotEmpty()) {
-                this.searches.forEach { remove(Station(it)) }
-            }
+            // Remove any existing recent search items from the beginning of list
+            this.recents.forEachIndexed { index, _ -> removeAt(index) }
 
             // Add a limited count of the new searches list at the beginning
-            val results = searches
-                .filterIndexed { index, _ -> index < maxRecentsCount }
+            val results = recents
+                .toSet()
+                .take(maxRecentsCount)
                 .apply {
-                    reversed().forEach { insert(Station(it), 0) }
+                    reversed().forEach { insert(it, 0) }
                 }
+                .toSet()
 
-            this.searches = results
+            this.recents = results
         }
     }
 }

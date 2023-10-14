@@ -8,7 +8,7 @@ import android.os.Bundle
 import android.widget.DatePicker
 import androidx.fragment.app.DialogFragment
 import bg.bdz.schedule.utils.withArgs
-import org.threeten.bp.LocalDate
+import java.time.LocalDate
 
 class DatePickerFragment : DialogFragment(), DatePickerDialog.OnDateSetListener {
 

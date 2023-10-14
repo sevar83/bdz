@@ -11,9 +11,4 @@
         android:icon="@drawable/ic_access_time"
         android:title="@string/title_timetables" />
 
-    <item
-        android:id="@+id/navigation_notifications"
-        android:icon="@drawable/ic_notifications"
-        android:title="@string/title_notifications" />
-
 </menu>

@@ -2,61 +2,59 @@ package bg.bdz.schedule.features.stations
 
 import android.util.JsonReader
 import bg.bdz.schedule.data.SimplePreferences
-import org.json.JSONArray
+import bg.bdz.schedule.models.Station
+import bg.bdz.schedule.network.Bdz
+import kotlinx.serialization.encodeToString
+import kotlinx.serialization.json.Json
 import java.io.StringReader
 
-/**
- * Created by Svetlozar Kostadinov on 19.09.19.
- */
 open class SearchHistory(
     private val simplePreferences: SimplePreferences
 ) {
-    private val cachedSearches: MutableList<String> by lazy {
+    private val recentStations: MutableSet<Station.Slug> by lazy {
         simplePreferences.get(KEY_RECENT_SEARCHES, EMPTY_JSON_ARRAY)
             .readToList()
-            .toMutableList()
+            .toMutableSet()
     }
 
-    fun add(newSearch: String) {
-        val existing = cachedSearches.find { it.equals(newSearch, ignoreCase = true) }
+    private val json = Json
+
+    fun add(recent: Station.Slug) {
+        val existing = recentStations.find { it == recent }
         if (existing != null) {
             // Remove an older search so that it can be placed at first position
-            cachedSearches -= existing
+            recentStations -= existing
         }
 
-        // Place the new search at first position
-        cachedSearches.add(0, newSearch)
+        recentStations.add(recent)
 
         // Store list as a JSON array
-        simplePreferences.put(KEY_RECENT_SEARCHES, cachedSearches.writeToJson())
+        simplePreferences.put(KEY_RECENT_SEARCHES, recentStations.writeToJson())
     }
 
-    fun getList(): List<String> {
-        return cachedSearches
-    }
+    fun getList(): List<Station> = recentStations.reversed().mapNotNull(Bdz.stationsBySlugs::get)
 
     // Json read / write
 
-    private fun List<String>.writeToJson(): String {
-        return JSONArray(this).toString()
-    }
+    private fun Set<Station.Slug>.writeToJson(): String = json.encodeToString(this)
 
-    private fun String.readToList(): List<String> {
-        val list = mutableListOf<String>()
+    private fun String.readToList(): Set<Station.Slug> {
+        val set = mutableSetOf<Station.Slug>()
 
         JsonReader(StringReader(this)).use { jsonReader ->
             jsonReader.beginArray()
             while (jsonReader.hasNext()) {
-                list.add(jsonReader.nextString())
+                val slug = Station.Slug(jsonReader.nextString())
+                set.add(slug)
             }
             jsonReader.endArray()
         }
 
-        return list
+        return set
     }
 
     companion object {
-        const val MAX_RECENT_SEARCHES = 5
+        const val MAX_RECENTS = 5
         private const val EMPTY_JSON_ARRAY = "[]"
         private const val KEY_RECENT_SEARCHES = "recentSeaches"
     }

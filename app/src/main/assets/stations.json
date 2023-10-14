@@ -1,0 +1,4202 @@
+[
+  {
+    "id": "5227313",
+    "slug": "ablanica",
+    "name_en": "Ablanica",
+    "name_bg": "Абланица"
+  },
+  {
+    "id": "5216415",
+    "slug": "avramovo",
+    "name_en": "Avramovo",
+    "name_bg": "Аврамово"
+  },
+  {
+    "id": "5283010",
+    "slug": "ajtos",
+    "name_en": "Ajtos",
+    "name_bg": "Айтос"
+  },
+  {
+    "id": "5211010",
+    "slug": "aldomirovci",
+    "name_en": "Aldomirovci",
+    "name_bg": "Алдомировци"
+  },
+  {
+    "id": "5227304",
+    "slug": "aleksandrovo",
+    "name_en": "Aleksandrovo",
+    "name_bg": "Александрово"
+  },
+  {
+    "id": "5265002",
+    "slug": "aleksandar-dimitrov",
+    "name_en": "Aleksandar Dimitrov",
+    "name_bg": "Александър Димитров"
+  },
+  {
+    "id": "5294125",
+    "slug": "alfatar",
+    "name_en": "Alfatar",
+    "name_bg": "Алфатар"
+  },
+  {
+    "id": "5232033",
+    "slug": "anevo",
+    "name_en": "Anevo",
+    "name_bg": "Анево"
+  },
+  {
+    "id": "5232022",
+    "slug": "anton",
+    "name_en": "Anton",
+    "name_bg": "Антон"
+  },
+  {
+    "id": "5224607",
+    "slug": "arkovna",
+    "name_en": "Arkovna",
+    "name_bg": "Арковна"
+  },
+  {
+    "id": "5218610",
+    "slug": "asenovgrad",
+    "name_en": "Asenovgrad",
+    "name_bg": "Асеновград"
+  },
+  {
+    "id": "5224010",
+    "slug": "asenovo",
+    "name_en": "Asenovo",
+    "name_bg": "Асеново"
+  },
+  {
+    "id": "5227301",
+    "slug": "asenovci",
+    "name_en": "Asenovci",
+    "name_bg": "Асеновци"
+  },
+  {
+    "id": "5238028",
+    "slug": "asparuhovo",
+    "name_en": "Asparuhovo",
+    "name_bg": "Аспарухово"
+  },
+  {
+    "id": "5238002",
+    "slug": "atolovo",
+    "name_en": "Atolovo",
+    "name_bg": "Атолово"
+  },
+  {
+    "id": "5294022",
+    "slug": "bajkovo",
+    "name_en": "Bajkovo",
+    "name_bg": "Байково"
+  },
+  {
+    "id": "5223014",
+    "slug": "balkan",
+    "name_en": "Balkan",
+    "name_bg": "Балкан"
+  },
+  {
+    "id": "5256104",
+    "slug": "bankovica",
+    "name_en": "Bankovica",
+    "name_bg": "Банковица"
+  },
+  {
+    "id": "5211210",
+    "slug": "bankja",
+    "name_en": "Bankja",
+    "name_bg": "Банкя"
+  },
+  {
+    "id": "5216427",
+    "slug": "bansko",
+    "name_en": "Bansko",
+    "name_bg": "Банско"
+  },
+  {
+    "id": "5281214",
+    "slug": "banja",
+    "name_en": "Banja",
+    "name_bg": "Баня"
+  },
+  {
+    "id": "5256002",
+    "slug": "batanovci",
+    "name_en": "Batanovci",
+    "name_bg": "Батановци"
+  },
+  {
+    "id": "5242021",
+    "slug": "batishnica",
+    "name_en": "Batishnica",
+    "name_bg": "Батишница"
+  },
+  {
+    "id": "5243021",
+    "slug": "bacho-kiro",
+    "name_en": "Bacho Kiro",
+    "name_bg": "Бачо Киро"
+  },
+  {
+    "id": "5294113",
+    "slug": "bezimenna",
+    "name_en": "Bezimenna",
+    "name_bg": "Безименна"
+  },
+  {
+    "id": "5284014",
+    "slug": "bezmer",
+    "name_en": "Bezmer",
+    "name_bg": "Безмер"
+  },
+  {
+    "id": "5256602",
+    "slug": "bela-voda",
+    "name_en": "Bela voda",
+    "name_bg": "Бела вода"
+  },
+  {
+    "id": "5272012",
+    "slug": "beli-izvor",
+    "name_en": "Beli izvor",
+    "name_bg": "Бели извор"
+  },
+  {
+    "id": "5216423",
+    "slug": "belica",
+    "name_en": "Belica",
+    "name_bg": "Белица"
+  },
+  {
+    "id": "5216034",
+    "slug": "belovo",
+    "name_en": "Belovo",
+    "name_bg": "Белово"
+  },
+  {
+    "id": "5281004",
+    "slug": "belozem",
+    "name_en": "Belozem",
+    "name_bg": "Белозем"
+  },
+  {
+    "id": "5229025",
+    "slug": "beloslav",
+    "name_en": "Beloslav",
+    "name_bg": "Белослав"
+  },
+  {
+    "id": "5272041",
+    "slug": "belshtica",
+    "name_en": "Belshtica",
+    "name_bg": "Белщица"
+  },
+  {
+    "id": "5281102",
+    "slug": "benkovski",
+    "name_en": "Benkovski",
+    "name_bg": "Бенковски"
+  },
+  {
+    "id": "5272110",
+    "slug": "berkovica",
+    "name_en": "Berkovica",
+    "name_bg": "Берковица"
+  },
+  {
+    "id": "5214014",
+    "slug": "biser",
+    "name_en": "Biser",
+    "name_bg": "Бисер"
+  },
+  {
+    "id": "5272103",
+    "slug": "blagovo",
+    "name_en": "Blagovo",
+    "name_bg": "Благово"
+  },
+  {
+    "id": "5256040",
+    "slug": "blagoevgrad",
+    "name_en": "Blagoevgrad",
+    "name_bg": "Благоевград"
+  },
+  {
+    "id": "5256038",
+    "slug": "blagoevgrad-st",
+    "name_en": "Blagoevgrad St.",
+    "name_bg": "Благоевград - спирка"
+  },
+  {
+    "id": "5216035",
+    "slug": "blagoj-zahariev",
+    "name_en": "Blagoj Zahariev",
+    "name_bg": "Благой Захариев"
+  },
+  {
+    "id": "5256110",
+    "slug": "bobov-dol",
+    "name_en": "Bobov dol",
+    "name_bg": "Бобов дол"
+  },
+  {
+    "id": "5256034",
+    "slug": "boboshevo",
+    "name_en": "Boboshevo",
+    "name_bg": "Бобошево"
+  },
+  {
+    "id": "5223013",
+    "slug": "bov",
+    "name_en": "Bov",
+    "name_bg": "Бов"
+  },
+  {
+    "id": "5294103",
+    "slug": "bogdanci",
+    "name_en": "Bogdanci",
+    "name_bg": "Богданци"
+  },
+  {
+    "id": "5242026",
+    "slug": "bozhichen",
+    "name_en": "Bozhichen",
+    "name_bg": "Божичен"
+  },
+  {
+    "id": "5243011",
+    "slug": "bozhkovci",
+    "name_en": "Bozhkovci",
+    "name_bg": "Божковци"
+  },
+  {
+    "id": "5227204",
+    "slug": "bozhurica",
+    "name_en": "Bozhurica",
+    "name_bg": "Божурица"
+  },
+  {
+    "id": "5211201",
+    "slug": "bozhurishte",
+    "name_en": "Bozhurishte",
+    "name_bg": "Божурище"
+  },
+  {
+    "id": "5284013",
+    "slug": "bozadzhii",
+    "name_en": "Bozadzhii",
+    "name_bg": "Бозаджи"
+  },
+  {
+    "id": "5216031",
+    "slug": "bojka",
+    "name_en": "Bojka",
+    "name_bg": "Бойка"
+  },
+  {
+    "id": "5272020",
+    "slug": "bojchinovci",
+    "name_en": "Bojchinovci",
+    "name_bg": "Бойчиновци"
+  },
+  {
+    "id": "5272105",
+    "slug": "bokilovci",
+    "name_en": "Bokilovci",
+    "name_bg": "Бокиловци"
+  },
+  {
+    "id": "5242020",
+    "slug": "borovo",
+    "name_en": "Borovo",
+    "name_bg": "Борово"
+  },
+  {
+    "id": "5272104",
+    "slug": "borovci",
+    "name_en": "Borovci",
+    "name_bg": "Боровци"
+  },
+  {
+    "id": "5243003",
+    "slug": "borushtica",
+    "name_en": "Borushtica",
+    "name_bg": "Борущица"
+  },
+  {
+    "id": "5238031",
+    "slug": "borjana",
+    "name_en": "Borjana",
+    "name_bg": "Боряна"
+  },
+  {
+    "id": "5232041",
+    "slug": "botev",
+    "name_en": "Botev",
+    "name_bg": "Ботев"
+  },
+  {
+    "id": "5229708",
+    "slug": "botevo",
+    "name_en": "Botevo",
+    "name_bg": "Ботево"
+  },
+  {
+    "id": "5232006",
+    "slug": "botunec",
+    "name_en": "Botunec",
+    "name_bg": "Ботунец"
+  },
+  {
+    "id": "5216505",
+    "slug": "bracigovo",
+    "name_en": "Bracigovo",
+    "name_bg": "Брацигово"
+  },
+  {
+    "id": "5261001",
+    "slug": "brigadir",
+    "name_en": "Brigadir",
+    "name_bg": "Бригадир"
+  },
+  {
+    "id": "5261005",
+    "slug": "brigadirska-slava",
+    "name_en": "Brigadirska Slava",
+    "name_bg": "Бригадирска Слава"
+  },
+  {
+    "id": "5272030",
+    "slug": "brusarci",
+    "name_en": "Brusarci",
+    "name_bg": "Брусарци"
+  },
+  {
+    "id": "5227001",
+    "slug": "brusen",
+    "name_en": "Brusen",
+    "name_bg": "Брусен"
+  },
+  {
+    "id": "5294126",
+    "slug": "brachma",
+    "name_en": "Brachma",
+    "name_bg": "Бръчма"
+  },
+  {
+    "id": "5241002",
+    "slug": "brjast",
+    "name_en": "Brjast",
+    "name_bg": "Бряст"
+  },
+  {
+    "id": "5232017",
+    "slug": "bunovo",
+    "name_en": "Bunovo",
+    "name_bg": "Буново"
+  },
+  {
+    "id": "5283020",
+    "slug": "burgas",
+    "name_en": "Burgas",
+    "name_bg": "Бургас"
+  },
+  {
+    "id": "5283019",
+    "slug": "burgas-razpredelitelna",
+    "name_en": "Burgas-Razpredelitelna",
+    "name_bg": "Бургас-Разпределителна"
+  },
+  {
+    "id": "5283023",
+    "slug": "burgas-razpredelitelna-spirka",
+    "name_en": "Burgas-Razpredelitelna-Spirka",
+    "name_bg": "Бургас-Разпределителна-Спирка"
+  },
+  {
+    "id": "5283018",
+    "slug": "burgas-tovarna",
+    "name_en": "Burgas-Tovarna",
+    "name_bg": "Бургас-Товарна"
+  },
+  {
+    "id": "5227042",
+    "slug": "butovo",
+    "name_en": "Butovo",
+    "name_bg": "Бутово"
+  },
+  {
+    "id": "5243005",
+    "slug": "bazovec",
+    "name_en": "Bazovec",
+    "name_bg": "Бъзовец"
+  },
+  {
+    "id": "5283012",
+    "slug": "balgarovo",
+    "name_en": "Balgarovo",
+    "name_bg": "Българово"
+  },
+  {
+    "id": "5294104",
+    "slug": "bardokva",
+    "name_en": "Bardokva",
+    "name_bg": "Бърдоква"
+  },
+  {
+    "id": "5216504",
+    "slug": "bjaga",
+    "name_en": "Bjaga",
+    "name_bg": "Бяга"
+  },
+  {
+    "id": "5224605",
+    "slug": "bjal-brjag",
+    "name_en": "Bjal brjag",
+    "name_bg": "Бял бряг"
+  },
+  {
+    "id": "5242012",
+    "slug": "bjala",
+    "name_en": "Bjala",
+    "name_bg": "Бяла"
+  },
+  {
+    "id": "5256037",
+    "slug": "belo-pole",
+    "name_en": "Belo pole",
+    "name_bg": "Бяло поле"
+  },
+  {
+    "id": "5216020",
+    "slug": "vakarel",
+    "name_en": "Vakarel",
+    "name_bg": "Вакарел"
+  },
+  {
+    "id": "5216021",
+    "slug": "vakarel-sp",
+    "name_en": "Vakarel Sp.",
+    "name_bg": "Вакарел - спирка"
+  },
+  {
+    "id": "5216403",
+    "slug": "varvara",
+    "name_en": "Varvara",
+    "name_bg": "Варвара"
+  },
+  {
+    "id": "5229030",
+    "slug": "varna",
+    "name_en": "Varna",
+    "name_bg": "Варна"
+  },
+  {
+    "id": "5229031",
+    "slug": "varna-sp",
+    "name_en": "Varna Sp.",
+    "name_bg": "Варна - спирка"
+  },
+  {
+    "id": "5224019",
+    "slug": "vasil-levski",
+    "name_en": "Vasil Levski",
+    "name_bg": "Васил Левски"
+  },
+  {
+    "id": "5272202",
+    "slug": "vasilovci",
+    "name_en": "Vasilovci",
+    "name_bg": "Василовци"
+  },
+  {
+    "id": "5238017",
+    "slug": "vedrovo",
+    "name_en": "Vedrovo",
+    "name_bg": "Ведрово"
+  },
+  {
+    "id": "5243027",
+    "slug": "veliko-tarnovo",
+    "name_en": "Veliko Tarnovo",
+    "name_bg": "Велико Търново"
+  },
+  {
+    "id": "5216410",
+    "slug": "velingrad",
+    "name_en": "Velingrad",
+    "name_bg": "Велинград"
+  },
+  {
+    "id": "5216411",
+    "slug": "velingrad-jug",
+    "name_en": "Velingrad-Jug",
+    "name_bg": "Велинград Юг"
+  },
+  {
+    "id": "5294025",
+    "slug": "velino",
+    "name_en": "Velino",
+    "name_bg": "Велино"
+  },
+  {
+    "id": "5238033",
+    "slug": "velichkovo",
+    "name_en": "Velichkovo",
+    "name_bg": "Величково"
+  },
+  {
+    "id": "5229005",
+    "slug": "venchan",
+    "name_en": "Venchan",
+    "name_bg": "Венчан"
+  },
+  {
+    "id": "5216011",
+    "slug": "verila",
+    "name_en": "Verila",
+    "name_bg": "Верила"
+  },
+  {
+    "id": "5216022",
+    "slug": "verinsko",
+    "name_en": "Verinsko",
+    "name_bg": "Веринско"
+  },
+  {
+    "id": "5294006",
+    "slug": "vetovo",
+    "name_en": "Vetovo",
+    "name_bg": "Ветово"
+  },
+  {
+    "id": "5234002",
+    "slug": "vetren",
+    "name_en": "Vetren",
+    "name_bg": "Ветрен"
+  },
+  {
+    "id": "5272047",
+    "slug": "vidbol",
+    "name_en": "Vidbol",
+    "name_bg": "Видбол"
+  },
+  {
+    "id": "5272050",
+    "slug": "vidin",
+    "name_en": "Vidin",
+    "name_bg": "Видин"
+  },
+  {
+    "id": "5218006",
+    "slug": "vinica",
+    "name_en": "Vinica",
+    "name_bg": "Виница"
+  },
+  {
+    "id": "5294021",
+    "slug": "visoka-poljana",
+    "name_en": "Visoka poljana",
+    "name_bg": "Висока поляна"
+  },
+  {
+    "id": "5251003",
+    "slug": "vladaja",
+    "name_en": "Vladaja",
+    "name_bg": "Владая"
+  },
+  {
+    "id": "5283017",
+    "slug": "vladimir-pavlov",
+    "name_en": "Vladimir Pavlov",
+    "name_bg": "Владимир Павлов"
+  },
+  {
+    "id": "5223004",
+    "slug": "vlado-trichkov",
+    "name_en": "Vlado Trichkov",
+    "name_bg": "Владо Тричков"
+  },
+  {
+    "id": "5272013",
+    "slug": "vlasatica",
+    "name_en": "Vlasatica",
+    "name_bg": "Власатица"
+  },
+  {
+    "id": "5272033",
+    "slug": "vodnjanci",
+    "name_en": "Vodnjanci",
+    "name_bg": "Воднянци"
+  },
+  {
+    "id": "5211020",
+    "slug": "volujak",
+    "name_en": "Volujak",
+    "name_bg": "Волуяк"
+  },
+  {
+    "id": "5218007",
+    "slug": "vr-depo-plovdiv-sp",
+    "name_en": "Vr depo Plovdiv Sp.",
+    "name_bg": "Вр.депо Пловдив - спирка"
+  },
+  {
+    "id": "5272010",
+    "slug": "vraca",
+    "name_en": "Vraca",
+    "name_bg": "Враца"
+  },
+  {
+    "id": "5272014",
+    "slug": "vraca-st",
+    "name_en": "Vraca St",
+    "name_bg": "Враца - Спирка"
+  },
+  {
+    "id": "5211022",
+    "slug": "vrabnica",
+    "name_en": "Vrabnica",
+    "name_bg": "Връбница"
+  },
+  {
+    "id": "5224023",
+    "slug": "vabel",
+    "name_en": "Vabel",
+    "name_bg": "Въбел"
+  },
+  {
+    "id": "5229705",
+    "slug": "valchi-dol",
+    "name_en": "Valchi dol",
+    "name_bg": "Вълчи дол"
+  },
+  {
+    "id": "5238012",
+    "slug": "valchin",
+    "name_en": "Valchin",
+    "name_bg": "Вълчин"
+  },
+  {
+    "id": "5232050",
+    "slug": "gabarevo",
+    "name_en": "Gabarevo",
+    "name_bg": "Габарево"
+  },
+  {
+    "id": "5272022",
+    "slug": "gabrovnica",
+    "name_en": "Gabrovnica",
+    "name_bg": "Габровница"
+  },
+  {
+    "id": "5243210",
+    "slug": "gabrovo",
+    "name_en": "Gabrovo",
+    "name_bg": "Габрово"
+  },
+  {
+    "id": "5234012",
+    "slug": "gavrailovo",
+    "name_en": "Gavrailovo",
+    "name_bg": "Гавраилово"
+  },
+  {
+    "id": "5243024",
+    "slug": "ganchovec",
+    "name_en": "Ganchovec",
+    "name_bg": "Ганчовец"
+  },
+  {
+    "id": "5229706",
+    "slug": "general-kiselovo",
+    "name_en": "General Kiselovo",
+    "name_bg": "Генерал Киселово"
+  },
+  {
+    "id": "5216424",
+    "slug": "general-kovachev",
+    "name_en": "General Kovachev",
+    "name_bg": "Генерал Ковачев"
+  },
+  {
+    "id": "5229713",
+    "slug": "general-kolevo",
+    "name_en": "General Kolevo",
+    "name_bg": "Генерал Колево"
+  },
+  {
+    "id": "5256056",
+    "slug": "general-todorov",
+    "name_en": "General Todorov",
+    "name_bg": "Генерал Тодоров"
+  },
+  {
+    "id": "5229715",
+    "slug": "general-toshevo",
+    "name_en": "General Toshevo",
+    "name_bg": "Генерал Тошево"
+  },
+  {
+    "id": "5283001",
+    "slug": "glumche",
+    "name_en": "Glumche",
+    "name_bg": "Глумче"
+  },
+  {
+    "id": "5244006",
+    "slug": "gluhar",
+    "name_en": "Gluhar",
+    "name_bg": "Глухар"
+  },
+  {
+    "id": "5294105",
+    "slug": "goljam-porovec",
+    "name_en": "Goljam Porovec",
+    "name_bg": "Голям Поровец"
+  },
+  {
+    "id": "5294102",
+    "slug": "goljama-voda",
+    "name_en": "Goljama Voda",
+    "name_bg": "Голяма вода"
+  },
+  {
+    "id": "5232053",
+    "slug": "goljamo-drjanovo",
+    "name_en": "Goljamo Drjanovo",
+    "name_bg": "Голямо Дряново"
+  },
+  {
+    "id": "5224018",
+    "slug": "goljamo-novo",
+    "name_en": "Goljamo novo",
+    "name_bg": "Голямо ново"
+  },
+  {
+    "id": "5256101",
+    "slug": "goljamo-selo",
+    "name_en": "Goljamo selo",
+    "name_bg": "Голямо село"
+  },
+  {
+    "id": "5224011",
+    "slug": "gorica",
+    "name_en": "Gorica",
+    "name_bg": "Горица"
+  },
+  {
+    "id": "5251002",
+    "slug": "gorna-banja",
+    "name_en": "Gorna banja",
+    "name_bg": "Горна баня"
+  },
+  {
+    "id": "5223026",
+    "slug": "gorna-kreta",
+    "name_en": "Gorna Kreta",
+    "name_bg": "Горна Крета"
+  },
+  {
+    "id": "5232011",
+    "slug": "gorna-malina",
+    "name_en": "Gorna Malina",
+    "name_bg": "Горна Малина"
+  },
+  {
+    "id": "5281211",
+    "slug": "gorna-mahala",
+    "name_en": "Gorna mahala",
+    "name_bg": "Горна махала"
+  },
+  {
+    "id": "5224000",
+    "slug": "gorna-orjahovica",
+    "name_en": "Gorna Orjahovica",
+    "name_bg": "Горна Оряховица"
+  },
+  {
+    "id": "5224902",
+    "slug": "gorjahovica-prpark",
+    "name_en": "G.Orjahovica-Pr.park",
+    "name_bg": "Горна Оряховица - Пр.парк"
+  },
+  {
+    "id": "5224903",
+    "slug": "gorna-orjahovica-razprp",
+    "name_en": "Gorna Orjahovica-Razpr.p",
+    "name_bg": "Горна Оряховица - Разпр.п."
+  },
+  {
+    "id": "5227015",
+    "slug": "gorni-dabnik",
+    "name_en": "Gorni Dabnik",
+    "name_bg": "Горни Дъбник"
+  },
+  {
+    "id": "5284002",
+    "slug": "gorno-botevo",
+    "name_en": "Gorno Botevo",
+    "name_bg": "Горно Ботево"
+  },
+  {
+    "id": "5244003",
+    "slug": "gorsko-djulevo",
+    "name_en": "Gorsko Djulevo",
+    "name_bg": "Горско Дюлево"
+  },
+  {
+    "id": "5256051",
+    "slug": "gradeshnica",
+    "name_en": "Gradeshnica",
+    "name_bg": "Градешница"
+  },
+  {
+    "id": "5227041",
+    "slug": "gradishte",
+    "name_en": "Gradishte",
+    "name_bg": "Градище"
+  },
+  {
+    "id": "5281202",
+    "slug": "graf-ignatievo",
+    "name_en": "Graf Ignatievo",
+    "name_bg": "Граф Игнатиево"
+  },
+  {
+    "id": "5227031",
+    "slug": "grivica",
+    "name_en": "Grivica",
+    "name_bg": "Гривица"
+  },
+  {
+    "id": "5216425",
+    "slug": "gulijna-banja",
+    "name_en": "Gulijna Banja",
+    "name_bg": "Гулийна Баня"
+  },
+  {
+    "id": "5234004",
+    "slug": "gurkovo",
+    "name_en": "Gurkovo",
+    "name_bg": "Гурково"
+  },
+  {
+    "id": "5256020",
+    "slug": "galabnik",
+    "name_en": "Galabnik",
+    "name_bg": "Гълъбник"
+  },
+  {
+    "id": "5265030",
+    "slug": "gjueshevo",
+    "name_en": "Gjueshevo",
+    "name_bg": "Гюешево"
+  },
+  {
+    "id": "5216422",
+    "slug": "dagonovo",
+    "name_en": "Dagonovo",
+    "name_bg": "Дагоново"
+  },
+  {
+    "id": "5256055",
+    "slug": "damjanica",
+    "name_en": "Damjanica",
+    "name_bg": "Дамяница"
+  },
+  {
+    "id": "5251005",
+    "slug": "daskalovo",
+    "name_en": "Daskalovo",
+    "name_bg": "Даскалово"
+  },
+  {
+    "id": "5242022",
+    "slug": "dve-mogili",
+    "name_en": "Dve mogili",
+    "name_bg": "Две могили"
+  },
+  {
+    "id": "5243026",
+    "slug": "debelec",
+    "name_en": "Debelec",
+    "name_bg": "Дебелец"
+  },
+  {
+    "id": "5265003",
+    "slug": "debeli-lag",
+    "name_en": "Debeli lag",
+    "name_bg": "Дебели лаг"
+  },
+  {
+    "id": "5229701",
+    "slug": "devnja",
+    "name_en": "Devnja",
+    "name_bg": "Девня"
+  },
+  {
+    "id": "5256021",
+    "slug": "deljan",
+    "name_en": "Deljan",
+    "name_bg": "Делян"
+  },
+  {
+    "id": "5244005",
+    "slug": "dzhebel",
+    "name_en": "Dzhebel",
+    "name_bg": "Джебел"
+  },
+  {
+    "id": "5256031",
+    "slug": "dzherman",
+    "name_en": "Dzherman",
+    "name_bg": "Джерман"
+  },
+  {
+    "id": "5224003",
+    "slug": "dzhuljunica",
+    "name_en": "Dzhuljunica",
+    "name_bg": "Джулюница"
+  },
+  {
+    "id": "5224601",
+    "slug": "dibich",
+    "name_en": "Dibich",
+    "name_bg": "Дибич"
+  },
+  {
+    "id": "5224034",
+    "slug": "divdjadovo",
+    "name_en": "Divdjadovo",
+    "name_bg": "Дивдядово"
+  },
+  {
+    "id": "5214002",
+    "slug": "dimitrovgrad-jug-sp",
+    "name_en": "Dimitrovgrad Jug Sp.",
+    "name_bg": "Димитовград Юг - спирка"
+  },
+  {
+    "id": "5241006",
+    "slug": "dimitrievo",
+    "name_en": "Dimitrievo",
+    "name_bg": "Димитриево"
+  },
+  {
+    "id": "5214000",
+    "slug": "dimitrovgrad",
+    "name_en": "Dimitrovgrad",
+    "name_bg": "Димитровград"
+  },
+  {
+    "id": "1",
+    "slug": "dimitrovgrad-rs",
+    "name_en": "Dimitrovgrad RS",
+    "name_bg": "Димитровград ЖС"
+  },
+  {
+    "id": "5241001",
+    "slug": "dimitrovgrad-sever",
+    "name_en": "Dimitrovgrad Sever",
+    "name_bg": "Димитровград Север"
+  },
+  {
+    "id": "5272042",
+    "slug": "dimovo",
+    "name_en": "Dimovo",
+    "name_bg": "Димово"
+  },
+  {
+    "id": "5229011",
+    "slug": "dobrina",
+    "name_en": "Dobrina",
+    "name_bg": "Добрина"
+  },
+  {
+    "id": "5216430",
+    "slug": "dobrinishte",
+    "name_en": "Dobrinishte",
+    "name_bg": "Добринище"
+  },
+  {
+    "id": "5244022",
+    "slug": "dobrinovo",
+    "name_en": "Dobrinovo",
+    "name_bg": "Добриново"
+  },
+  {
+    "id": "5229710",
+    "slug": "dobrich",
+    "name_en": "Dobrich",
+    "name_bg": "Добрич"
+  },
+  {
+    "id": "5229711",
+    "slug": "dobrich-sever",
+    "name_en": "Dobrich-Sever",
+    "name_bg": "Добрич - Север"
+  },
+  {
+    "id": "5227316",
+    "slug": "dobrodan",
+    "name_en": "Dobrodan",
+    "name_bg": "Добродан"
+  },
+  {
+    "id": "5265024",
+    "slug": "dozhdevica",
+    "name_en": "Dozhdevica",
+    "name_bg": "Дождевица"
+  },
+  {
+    "id": "5227306",
+    "slug": "dojrenci",
+    "name_en": "Dojrenci",
+    "name_bg": "Дойренци"
+  },
+  {
+    "id": "5242027",
+    "slug": "dolapite",
+    "name_en": "Dolapite",
+    "name_bg": "Долапите"
+  },
+  {
+    "id": "5216406",
+    "slug": "dolene",
+    "name_en": "Dolene",
+    "name_bg": "Долене"
+  },
+  {
+    "id": "5281210",
+    "slug": "dolna-mahala",
+    "name_en": "Dolna mahala",
+    "name_bg": "Долна махала"
+  },
+  {
+    "id": "5227202",
+    "slug": "dolna-mitropolija",
+    "name_en": "Dolna Mitropolija",
+    "name_bg": "Долна Митрополия"
+  },
+  {
+    "id": "5227209",
+    "slug": "dolni-vit",
+    "name_en": "Dolni Vit",
+    "name_bg": "Долни Вит"
+  },
+  {
+    "id": "5227016",
+    "slug": "dolni-dabnik",
+    "name_en": "Dolni Dabnik",
+    "name_bg": "Долни Дъбник"
+  },
+  {
+    "id": "5256012",
+    "slug": "dolni-rakovec",
+    "name_en": "Dolni Rakovec",
+    "name_bg": "Долни Раковец"
+  },
+  {
+    "id": "5283016",
+    "slug": "dolno-ezerovo",
+    "name_en": "Dolno Ezerovo",
+    "name_bg": "Долно Езерово"
+  },
+  {
+    "id": "5232016",
+    "slug": "dolno-kamarci",
+    "name_en": "Dolno Kamarci",
+    "name_bg": "Долно Камарци"
+  },
+  {
+    "id": "5265028",
+    "slug": "dolno-selo",
+    "name_en": "Dolno selo",
+    "name_bg": "Долно село"
+  },
+  {
+    "id": "5272023",
+    "slug": "dolno-cerovene",
+    "name_en": "Dolno Cerovene",
+    "name_bg": "Долно Церовене"
+  },
+  {
+    "id": "5229709",
+    "slug": "donchevo",
+    "name_en": "Donchevo",
+    "name_bg": "Дончево"
+  },
+  {
+    "id": "5251004",
+    "slug": "dragichevo",
+    "name_en": "Dragichevo",
+    "name_bg": "Драгичево"
+  },
+  {
+    "id": "5211006",
+    "slug": "dragoman",
+    "name_en": "Dragoman",
+    "name_bg": "Драгоман"
+  },
+  {
+    "id": "5211007",
+    "slug": "dragoman-sp",
+    "name_en": "Dragoman Sp.",
+    "name_bg": "Драгоман - спирка"
+  },
+  {
+    "id": "5227405",
+    "slug": "dragomirovo",
+    "name_en": "Dragomirovo",
+    "name_bg": "Драгомирово"
+  },
+  {
+    "id": "5224020",
+    "slug": "dralfa",
+    "name_en": "Dralfa",
+    "name_bg": "Дралфа"
+  },
+  {
+    "id": "5227305",
+    "slug": "drasov",
+    "name_en": "Drasov",
+    "name_bg": "Драсов"
+  },
+  {
+    "id": "5272032",
+    "slug": "drenovec",
+    "name_en": "Drenovec",
+    "name_bg": "Дреновец"
+  },
+  {
+    "id": "5238029",
+    "slug": "dropla-spirka",
+    "name_en": "Dropla-spirka",
+    "name_bg": "Дропла-спирка"
+  },
+  {
+    "id": "5283015",
+    "slug": "druzhba",
+    "name_en": "Druzhba",
+    "name_bg": "Дружба"
+  },
+  {
+    "id": "5243022",
+    "slug": "drjanovo",
+    "name_en": "Drjanovo",
+    "name_bg": "Дряново"
+  },
+  {
+    "id": "5243023",
+    "slug": "drjanovo-st",
+    "name_en": "Drjanovo St.",
+    "name_bg": "Дряново - спирка"
+  },
+  {
+    "id": "5294120",
+    "slug": "dulovo",
+    "name_en": "Dulovo",
+    "name_bg": "Дулово"
+  },
+  {
+    "id": "5232054",
+    "slug": "dunavci",
+    "name_en": "Dunavci",
+    "name_bg": "Дунавци"
+  },
+  {
+    "id": "5256030",
+    "slug": "dupnica",
+    "name_en": "Dupnica",
+    "name_bg": "Дупница"
+  },
+  {
+    "id": "5256025",
+    "slug": "dupnica-st",
+    "name_en": "Dupnica St.",
+    "name_bg": "Дупница - спирка"
+  },
+  {
+    "id": "5281216",
+    "slug": "dabene",
+    "name_en": "Dabene",
+    "name_bg": "Дъбене"
+  },
+  {
+    "id": "5272031",
+    "slug": "dabova-mahala",
+    "name_en": "Dabova mahala",
+    "name_bg": "Дъбова махала"
+  },
+  {
+    "id": "5234001",
+    "slug": "dabovo",
+    "name_en": "Dabovo",
+    "name_bg": "Дъбово"
+  },
+  {
+    "id": "5243030",
+    "slug": "dalga-laka",
+    "name_en": "Dalga laka",
+    "name_bg": "Дълга лъка"
+  },
+  {
+    "id": "5238032",
+    "slug": "dalgopol",
+    "name_en": "Dalgopol",
+    "name_bg": "Дългопол"
+  },
+  {
+    "id": "5238024",
+    "slug": "daskotna",
+    "name_en": "Daskotna",
+    "name_bg": "Дъскотна"
+  },
+  {
+    "id": "5281108",
+    "slug": "djulevo",
+    "name_en": "Djulevo",
+    "name_bg": "Дюлево"
+  },
+  {
+    "id": "5256023",
+    "slug": "djakovo",
+    "name_en": "Djakovo",
+    "name_bg": "Дяково"
+  },
+  {
+    "id": "5265004",
+    "slug": "egalnica",
+    "name_en": "Egalnica",
+    "name_bg": "Егълница"
+  },
+  {
+    "id": "5229028",
+    "slug": "ezerovo",
+    "name_en": "Ezerovo",
+    "name_bg": "Езерово"
+  },
+  {
+    "id": "5229033",
+    "slug": "ezerovo-spirka",
+    "name_en": "Ezerovo-spirka",
+    "name_bg": "Езерово-спирка"
+  },
+  {
+    "id": "5248004",
+    "slug": "elenino",
+    "name_en": "Elenino",
+    "name_bg": "Еленино"
+  },
+  {
+    "id": "5216012",
+    "slug": "elin-pelin",
+    "name_en": "Elin Pelin",
+    "name_bg": "Елин Пелин"
+  },
+  {
+    "id": "5223020",
+    "slug": "elisejna",
+    "name_en": "Elisejna",
+    "name_bg": "Елисейна"
+  },
+  {
+    "id": "5227408",
+    "slug": "elit",
+    "name_en": "Elit",
+    "name_bg": "Елит"
+  },
+  {
+    "id": "5272101",
+    "slug": "erden",
+    "name_en": "Erden",
+    "name_bg": "Ерден"
+  },
+  {
+    "id": "5265006",
+    "slug": "zhabljano",
+    "name_en": "Zhabljano",
+    "name_bg": "Жабляно"
+  },
+  {
+    "id": "5272045",
+    "slug": "zheglica",
+    "name_en": "Zheglica",
+    "name_bg": "Жеглица"
+  },
+  {
+    "id": "5256042",
+    "slug": "zheleznica",
+    "name_en": "Zheleznica",
+    "name_bg": "Железница"
+  },
+  {
+    "id": "5223011",
+    "slug": "zhelen",
+    "name_en": "Zhelen",
+    "name_bg": "Желен"
+  },
+  {
+    "id": "5224606",
+    "slug": "zhelad",
+    "name_en": "Zhelad",
+    "name_bg": "Желъд"
+  },
+  {
+    "id": "5234023",
+    "slug": "zhelju-vojvoda",
+    "name_en": "Zhelju vojvoda",
+    "name_bg": "Желю войвода"
+  },
+  {
+    "id": "5244011",
+    "slug": "zheljazna-vrata",
+    "name_en": "Zheljazna Vrata",
+    "name_bg": "Желязна Врата"
+  },
+  {
+    "id": "5216023",
+    "slug": "zhivkovo",
+    "name_en": "Zhivkovo",
+    "name_bg": "Живково"
+  },
+  {
+    "id": "5229013",
+    "slug": "zhitnica",
+    "name_en": "Zhitnica",
+    "name_bg": "Житница"
+  },
+  {
+    "id": "5223016",
+    "slug": "zhp-shkola-lakatnik",
+    "name_en": "ZHP shkola-Lakatnik",
+    "name_bg": "Жп.школа - Лакатник"
+  },
+  {
+    "id": "5238020",
+    "slug": "zavet",
+    "name_en": "Zavet",
+    "name_bg": "Завет"
+  },
+  {
+    "id": "5238021",
+    "slug": "zavet-sp",
+    "name_en": "Zavet Sp.",
+    "name_bg": "Завет - спирка"
+  },
+  {
+    "id": "5284021",
+    "slug": "zavoj-sp",
+    "name_en": "Zavoj Sp.",
+    "name_bg": "Завой - спирка"
+  },
+  {
+    "id": "5251001",
+    "slug": "zaharna-fabrika",
+    "name_en": "Zaharna fabrika",
+    "name_bg": "Захарна фабрика"
+  },
+  {
+    "id": "5244014",
+    "slug": "zvezdelina",
+    "name_en": "Zvezdelina",
+    "name_bg": "Звезделина"
+  },
+  {
+    "id": "5223022",
+    "slug": "zverino",
+    "name_en": "Zverino",
+    "name_bg": "Зверино"
+  },
+  {
+    "id": "5216042",
+    "slug": "zvanichevo",
+    "name_en": "Zvanichevo",
+    "name_bg": "Звъничево"
+  },
+  {
+    "id": "5224022",
+    "slug": "zdravec",
+    "name_en": "Zdravec",
+    "name_bg": "Здравец"
+  },
+  {
+    "id": "5265010",
+    "slug": "zemen",
+    "name_en": "Zemen",
+    "name_bg": "Земен"
+  },
+  {
+    "id": "5238000",
+    "slug": "zimnica",
+    "name_en": "Zimnica",
+    "name_bg": "Зимница"
+  },
+  {
+    "id": "5232020",
+    "slug": "zlatica",
+    "name_en": "Zlatica",
+    "name_bg": "Златица"
+  },
+  {
+    "id": "5294027",
+    "slug": "zlatna-niva",
+    "name_en": "Zlatna niva",
+    "name_bg": "Златна нива"
+  },
+  {
+    "id": "5261004",
+    "slug": "zlatusha",
+    "name_en": "Zlatusha",
+    "name_bg": "Златуша"
+  },
+  {
+    "id": "5248011",
+    "slug": "zmejovo",
+    "name_en": "Zmejovo",
+    "name_bg": "Змейово"
+  },
+  {
+    "id": "5281212",
+    "slug": "ivan-vazovo",
+    "name_en": "Ivan Vazovo",
+    "name_bg": "Иван Вазово"
+  },
+  {
+    "id": "5243203",
+    "slug": "ivankovci",
+    "name_en": "Ivankovci",
+    "name_bg": "Иванковци"
+  },
+  {
+    "id": "5242025",
+    "slug": "ivanovo",
+    "name_en": "Ivanovo",
+    "name_bg": "Иваново"
+  },
+  {
+    "id": "5224603",
+    "slug": "ivanski",
+    "name_en": "Ivanski",
+    "name_bg": "Ивански"
+  },
+  {
+    "id": "5211202",
+    "slug": "ivanjane",
+    "name_en": "Ivanjane",
+    "name_bg": "Иваняне"
+  },
+  {
+    "id": "5232032",
+    "slug": "iganovo",
+    "name_en": "Iganovo",
+    "name_bg": "Иганово"
+  },
+  {
+    "id": "5223000",
+    "slug": "ilijanci",
+    "name_en": "Ilijanci",
+    "name_bg": "Илиянци"
+  },
+  {
+    "id": "5216005",
+    "slug": "iskar",
+    "name_en": "Iskar",
+    "name_bg": "Искър"
+  },
+  {
+    "id": "5216905",
+    "slug": "iskarsko-shose",
+    "name_en": "Iskarsko shose",
+    "name_bg": "Искърско шосе"
+  },
+  {
+    "id": "5294110",
+    "slug": "isperih",
+    "name_en": "Isperih",
+    "name_bg": "Исперих"
+  },
+  {
+    "id": "5216024",
+    "slug": "ihtiman",
+    "name_en": "Ihtiman",
+    "name_bg": "Ихтиман"
+  },
+  {
+    "id": "5227307",
+    "slug": "joglav",
+    "name_en": "Joglav",
+    "name_bg": "Йоглав"
+  },
+  {
+    "id": "5216051",
+    "slug": "kadievo",
+    "name_en": "Kadievo",
+    "name_bg": "Кадиево"
+  },
+  {
+    "id": "5232056",
+    "slug": "kazanlak",
+    "name_en": "Kazanlak",
+    "name_bg": "Казанлък"
+  },
+  {
+    "id": "5227312",
+    "slug": "kazachevo",
+    "name_en": "Kazachevo",
+    "name_bg": "Казачево"
+  },
+  {
+    "id": "5216010",
+    "slug": "kazichene",
+    "name_en": "Kazichene",
+    "name_bg": "Казичене"
+  },
+  {
+    "id": "5227317",
+    "slug": "kalejca",
+    "name_en": "Kalejca",
+    "name_bg": "Калейца"
+  },
+  {
+    "id": "5294127",
+    "slug": "kalipetrovo",
+    "name_en": "Kalipetrovo",
+    "name_bg": "Калипетрово"
+  },
+  {
+    "id": "5284001",
+    "slug": "kalitinovo",
+    "name_en": "Kalitinovo",
+    "name_bg": "Калитиново"
+  },
+  {
+    "id": "5265005",
+    "slug": "kalishta",
+    "name_en": "Kalishta",
+    "name_bg": "Калища"
+  },
+  {
+    "id": "5211001",
+    "slug": "kalotina-zapad",
+    "name_en": "Kalotina-Zapad",
+    "name_bg": "Калотина-Запад"
+  },
+  {
+    "id": "5232043",
+    "slug": "kalofer",
+    "name_en": "Kalofer",
+    "name_bg": "Калофер"
+  },
+  {
+    "id": "5248002",
+    "slug": "kalojanovec",
+    "name_en": "Kalojanovec",
+    "name_bg": "Калояновец"
+  },
+  {
+    "id": "5281203",
+    "slug": "kalojanovo",
+    "name_en": "Kalojanovo",
+    "name_bg": "Калояново"
+  },
+  {
+    "id": "5244016",
+    "slug": "kalojanci",
+    "name_en": "Kalojanci",
+    "name_bg": "Калоянци"
+  },
+  {
+    "id": "5224033",
+    "slug": "kalugerica",
+    "name_en": "Kalugerica",
+    "name_bg": "Калугерица"
+  },
+  {
+    "id": "5227035",
+    "slug": "kamenec",
+    "name_en": "Kamenec",
+    "name_bg": "Каменец"
+  },
+  {
+    "id": "5283013",
+    "slug": "kamenni-karieri",
+    "name_en": "Kamenni karieri",
+    "name_bg": "Каменни кариери"
+  },
+  {
+    "id": "5283014",
+    "slug": "kameno",
+    "name_en": "Kameno",
+    "name_bg": "Камено"
+  },
+  {
+    "id": "5294024",
+    "slug": "kamenjak",
+    "name_en": "Kamenjak",
+    "name_bg": "Каменяк"
+  },
+  {
+    "id": "2",
+    "slug": "kapikule",
+    "name_en": "Kapıkule",
+    "name_bg": "Капъкуле"
+  },
+  {
+    "id": "5238025",
+    "slug": "karaveljovo",
+    "name_en": "Karaveljovo",
+    "name_bg": "Каравельово"
+  },
+  {
+    "id": "5283005",
+    "slug": "karageorgievo",
+    "name_en": "Karageorgievo",
+    "name_bg": "Карагеоргиево"
+  },
+  {
+    "id": "5218011",
+    "slug": "karadzhalovo",
+    "name_en": "Karadzhalovo",
+    "name_bg": "Караджалово"
+  },
+  {
+    "id": "5224016",
+    "slug": "karadzhata",
+    "name_en": "Karadzhata",
+    "name_bg": "Караджата"
+  },
+  {
+    "id": "5272034",
+    "slug": "karbinci",
+    "name_en": "Karbinci",
+    "name_bg": "Карбинци"
+  },
+  {
+    "id": "5229716",
+    "slug": "kardam",
+    "name_en": "Kardam",
+    "name_bg": "Кардам"
+  },
+  {
+    "id": "5265009",
+    "slug": "kariera-skakavica",
+    "name_en": "Kariera Skakavica",
+    "name_bg": "Кариера-Скакавица"
+  },
+  {
+    "id": "5232040",
+    "slug": "karlovo",
+    "name_en": "Karlovo",
+    "name_bg": "Карлово"
+  },
+  {
+    "id": "5227008",
+    "slug": "karlukovo",
+    "name_en": "Karlukovo",
+    "name_bg": "Карлуково"
+  },
+  {
+    "id": "5238009",
+    "slug": "karnobat",
+    "name_en": "Karnobat",
+    "name_bg": "Карнобат"
+  },
+  {
+    "id": "5229000",
+    "slug": "kaspichan",
+    "name_en": "Kaspichan",
+    "name_bg": "Каспичан"
+  },
+  {
+    "id": "5218002",
+    "slug": "katunica",
+    "name_en": "Katunica",
+    "name_bg": "Катуница"
+  },
+  {
+    "id": "5284012",
+    "slug": "kermen",
+    "name_en": "Kermen",
+    "name_bg": "Кермен"
+  },
+  {
+    "id": "5224004",
+    "slug": "kesarevo",
+    "name_en": "Kesarevo",
+    "name_bg": "Кесарево"
+  },
+  {
+    "id": "5229702",
+    "slug": "kipra",
+    "name_en": "Kipra",
+    "name_bg": "Кипра"
+  },
+  {
+    "id": "5294111",
+    "slug": "kitanchevo",
+    "name_en": "Kitanchevo",
+    "name_bg": "Китанчево"
+  },
+  {
+    "id": "5283002",
+    "slug": "klikach",
+    "name_en": "Klikach",
+    "name_bg": "Кликач"
+  },
+  {
+    "id": "5294122",
+    "slug": "klimat-uchilishe",
+    "name_en": "Klimat. uchilishe",
+    "name_bg": "Климат.училище"
+  },
+  {
+    "id": "5238014",
+    "slug": "klimash",
+    "name_en": "Klimash",
+    "name_bg": "Климаш"
+  },
+  {
+    "id": "5232025",
+    "slug": "klisura",
+    "name_en": "Klisura",
+    "name_bg": "Клисура"
+  },
+  {
+    "id": "5244030",
+    "slug": "knizhovnik",
+    "name_en": "Knizhovnik",
+    "name_bg": "Книжовник"
+  },
+  {
+    "id": "5216041",
+    "slug": "kovachevo",
+    "name_en": "Kovachevo",
+    "name_bg": "Ковачево"
+  },
+  {
+    "id": "5224002",
+    "slug": "kozarevec",
+    "name_en": "Kozarevec",
+    "name_bg": "Козаревец"
+  },
+  {
+    "id": "5216503",
+    "slug": "kozarsko",
+    "name_en": "Kozarsko",
+    "name_bg": "Козарско"
+  },
+  {
+    "id": "5227206",
+    "slug": "komarevo",
+    "name_en": "Komarevo",
+    "name_bg": "Комарево"
+  },
+  {
+    "id": "5238030",
+    "slug": "komunari",
+    "name_en": "Komunari",
+    "name_bg": "Комунари"
+  },
+  {
+    "id": "5234005",
+    "slug": "konare",
+    "name_en": "Konare",
+    "name_bg": "Конаре"
+  },
+  {
+    "id": "5256013",
+    "slug": "kondofrej",
+    "name_en": "Kondofrej",
+    "name_bg": "Кондофрей"
+  },
+  {
+    "id": "5214005",
+    "slug": "konstantinovo",
+    "name_en": "Konstantinovo",
+    "name_bg": "Константиново"
+  },
+  {
+    "id": "5284011",
+    "slug": "konjovo",
+    "name_en": "Konjovo",
+    "name_bg": "Коньово"
+  },
+  {
+    "id": "5256003",
+    "slug": "kopanica",
+    "name_en": "Kopanica",
+    "name_bg": "Копаница"
+  },
+  {
+    "id": "5265014",
+    "slug": "kopilovci",
+    "name_en": "Kopilovci",
+    "name_bg": "Копиловци"
+  },
+  {
+    "id": "5232023",
+    "slug": "koprivshtica",
+    "name_en": "Koprivshtica",
+    "name_bg": "Копривщица"
+  },
+  {
+    "id": "5256032",
+    "slug": "kosta-petrov",
+    "name_en": "Kosta Petrov",
+    "name_bg": "Коста Петров"
+  },
+  {
+    "id": "5216407",
+    "slug": "kostandovo",
+    "name_en": "Kostandovo",
+    "name_bg": "Костандово"
+  },
+  {
+    "id": "5216030",
+    "slug": "kostenec",
+    "name_en": "Kostenec",
+    "name_bg": "Костенец"
+  },
+  {
+    "id": "5211015",
+    "slug": "kostinbrod",
+    "name_en": "Kostinbrod",
+    "name_bg": "Костинброд"
+  },
+  {
+    "id": "5211016",
+    "slug": "kostinbrod-sp",
+    "name_en": "Kostinbrod Sp.",
+    "name_bg": "Костинброд - спирка"
+  },
+  {
+    "id": "5218604",
+    "slug": "kochevo",
+    "name_en": "Kochevo",
+    "name_bg": "Кочево"
+  },
+  {
+    "id": "5256036",
+    "slug": "kocherinovo",
+    "name_en": "Kocherinovo",
+    "name_bg": "Кочериново"
+  },
+  {
+    "id": "5224028",
+    "slug": "kochovo",
+    "name_en": "Kochovo",
+    "name_bg": "Кочово"
+  },
+  {
+    "id": "5256011",
+    "slug": "kosharite",
+    "name_en": "Kosharite",
+    "name_bg": "Кошарите"
+  },
+  {
+    "id": "5242024",
+    "slug": "koshov",
+    "name_en": "Koshov",
+    "name_bg": "Кошов"
+  },
+  {
+    "id": "5256001",
+    "slug": "krakra",
+    "name_en": "Krakra",
+    "name_bg": "Кракра"
+  },
+  {
+    "id": "5232005",
+    "slug": "kremikovci",
+    "name_en": "Kremikovci",
+    "name_bg": "Кремиковци"
+  },
+  {
+    "id": "5210156",
+    "slug": "krepost",
+    "name_en": "Krepost",
+    "name_bg": "Крепост"
+  },
+  {
+    "id": "5256050",
+    "slug": "kresna",
+    "name_en": "Kresna",
+    "name_bg": "Кресна"
+  },
+  {
+    "id": "5256047",
+    "slug": "kresna-sp",
+    "name_en": "Kresna Sp.",
+    "name_bg": "Кресна - спирка"
+  },
+  {
+    "id": "5227207",
+    "slug": "kreta",
+    "name_en": "Kreta",
+    "name_bg": "Крета"
+  },
+  {
+    "id": "5272201",
+    "slug": "kriva-bara",
+    "name_en": "Kriva bara",
+    "name_bg": "Крива бара"
+  },
+  {
+    "id": "5294007",
+    "slug": "krivnja",
+    "name_en": "Krivnja",
+    "name_bg": "Кривня"
+  },
+  {
+    "id": "5272015",
+    "slug": "krivodol",
+    "name_en": "Krivodol",
+    "name_bg": "Криводол"
+  },
+  {
+    "id": "5216502",
+    "slug": "krichim",
+    "name_en": "Krichim",
+    "name_bg": "Кричим"
+  },
+  {
+    "id": "5218015",
+    "slug": "krum",
+    "name_en": "Krum",
+    "name_bg": "Крум"
+  },
+  {
+    "id": "5218001",
+    "slug": "krumovo",
+    "name_en": "Krumovo",
+    "name_bg": "Крумово"
+  },
+  {
+    "id": "5242003",
+    "slug": "krusheto",
+    "name_en": "Krusheto",
+    "name_bg": "Крушето"
+  },
+  {
+    "id": "5243004",
+    "slug": "krastec",
+    "name_en": "Krastec",
+    "name_bg": "Кръстец"
+  },
+  {
+    "id": "5232001",
+    "slug": "kubratovo",
+    "name_en": "Kubratovo",
+    "name_bg": "Кубратово"
+  },
+  {
+    "id": "5256060",
+    "slug": "kulata",
+    "name_en": "Kulata",
+    "name_bg": "Кулата"
+  },
+  {
+    "id": "5223001",
+    "slug": "kumarica",
+    "name_en": "Kumarica",
+    "name_bg": "Кумарица"
+  },
+  {
+    "id": "5227007",
+    "slug": "kunino",
+    "name_en": "Kunino",
+    "name_bg": "Кунино"
+  },
+  {
+    "id": "5223002",
+    "slug": "kurilo",
+    "name_en": "Kurilo",
+    "name_bg": "Курило"
+  },
+  {
+    "id": "5216501",
+    "slug": "kurtovo-konare",
+    "name_en": "Kurtovo Konare",
+    "name_bg": "Куртово Конаре"
+  },
+  {
+    "id": "5265027",
+    "slug": "kutugerci",
+    "name_en": "Kutugerci",
+    "name_bg": "Кутугерци"
+  },
+  {
+    "id": "5242004",
+    "slug": "kucina",
+    "name_en": "Kucina",
+    "name_bg": "Куцина"
+  },
+  {
+    "id": "5244010",
+    "slug": "kardzhali",
+    "name_en": "Kardzhali",
+    "name_bg": "Кърджали"
+  },
+  {
+    "id": "5232031",
+    "slug": "karnare",
+    "name_en": "Karnare",
+    "name_bg": "Кърнаре"
+  },
+  {
+    "id": "5265023",
+    "slug": "karshalevo",
+    "name_en": "Karshalevo",
+    "name_bg": "Кършалево"
+  },
+  {
+    "id": "5265020",
+    "slug": "kjustendil",
+    "name_en": "Kjustendil",
+    "name_bg": "Кюстендил"
+  },
+  {
+    "id": "5216408",
+    "slug": "lazar-pamporov",
+    "name_en": "Lazar Pamporov",
+    "name_bg": "Лазар Пампоров"
+  },
+  {
+    "id": "5223015",
+    "slug": "lakatnik",
+    "name_en": "Lakatnik",
+    "name_bg": "Лакатник"
+  },
+  {
+    "id": "5223018",
+    "slug": "levishte",
+    "name_en": "Levishte",
+    "name_bg": "Левище"
+  },
+  {
+    "id": "5227040",
+    "slug": "levski",
+    "name_en": "Levski",
+    "name_bg": "Левски"
+  },
+  {
+    "id": "5227045",
+    "slug": "lesicheri",
+    "name_en": "Lesicheri",
+    "name_bg": "Лесичери"
+  },
+  {
+    "id": "5265026",
+    "slug": "leska",
+    "name_en": "Leska",
+    "name_bg": "Леска"
+  },
+  {
+    "id": "5227302",
+    "slug": "letnica",
+    "name_en": "Letnica",
+    "name_bg": "Летница"
+  },
+  {
+    "id": "5227314",
+    "slug": "leshnica",
+    "name_en": "Leshnica",
+    "name_bg": "Лешница"
+  },
+  {
+    "id": "5238023",
+    "slug": "listec",
+    "name_en": "Listec",
+    "name_bg": "Листец"
+  },
+  {
+    "id": "5224026",
+    "slug": "lovec",
+    "name_en": "Lovec",
+    "name_bg": "Ловец"
+  },
+  {
+    "id": "5227310",
+    "slug": "lovech",
+    "name_en": "Lovech",
+    "name_bg": "Ловеч"
+  },
+  {
+    "id": "5227309",
+    "slug": "lovech-sp",
+    "name_en": "Lovech Sp.",
+    "name_bg": "Ловеч - спирка"
+  },
+  {
+    "id": "5227311",
+    "slug": "lovech-jug",
+    "name_en": "Lovech-Jug",
+    "name_bg": "Ловеч - Юг"
+  },
+  {
+    "id": "5227319",
+    "slug": "lovech-sever",
+    "name_en": "Lovech-Sever",
+    "name_bg": "Ловеч-Север"
+  },
+  {
+    "id": "5238013",
+    "slug": "lozarevo",
+    "name_en": "Lozarevo",
+    "name_bg": "Лозарево"
+  },
+  {
+    "id": "5210122",
+    "slug": "lozovo",
+    "name_en": "Lozovo",
+    "name_bg": "Лозово-спирка"
+  },
+  {
+    "id": "5232004",
+    "slug": "lokorsko",
+    "name_en": "Lokorsko",
+    "name_bg": "Локорско"
+  },
+  {
+    "id": "5272206",
+    "slug": "lom",
+    "name_en": "Lom",
+    "name_bg": "Лом"
+  },
+  {
+    "id": "5227315",
+    "slug": "lomec",
+    "name_en": "Lomec",
+    "name_bg": "Ломец"
+  },
+  {
+    "id": "5223005",
+    "slug": "lukovo",
+    "name_en": "Lukovo",
+    "name_bg": "Луково"
+  },
+  {
+    "id": "5214015",
+    "slug": "ljubimec",
+    "name_en": "Ljubimec",
+    "name_bg": "Любимец"
+  },
+  {
+    "id": "5238022",
+    "slug": "ljuljakovo",
+    "name_en": "Ljuljakovo",
+    "name_bg": "Люляково"
+  },
+  {
+    "id": "5223024",
+    "slug": "ljutibrod",
+    "name_en": "Ljutibrod",
+    "name_bg": "Лютиброд"
+  },
+  {
+    "id": "5218601",
+    "slug": "mavrudovo",
+    "name_en": "Mavrudovo",
+    "name_bg": "Маврудово"
+  },
+  {
+    "id": "5224032",
+    "slug": "madara",
+    "name_en": "Madara",
+    "name_bg": "Мадара"
+  },
+  {
+    "id": "5265022",
+    "slug": "mazarachevo",
+    "name_en": "Mazarachevo",
+    "name_bg": "Мазарачево"
+  },
+  {
+    "id": "5232015",
+    "slug": "makocevo",
+    "name_en": "Makocevo",
+    "name_bg": "Макоцево"
+  },
+  {
+    "id": "5232027",
+    "slug": "makocevo-sp",
+    "name_en": "Makocevo Sp.",
+    "name_bg": "Макоцево - спирка"
+  },
+  {
+    "id": "5272043",
+    "slug": "makresh",
+    "name_en": "Makresh",
+    "name_bg": "Макреш"
+  },
+  {
+    "id": "5244031",
+    "slug": "malevo",
+    "name_en": "Malevo",
+    "name_bg": "Малево"
+  },
+  {
+    "id": "5256102",
+    "slug": "malo-selo",
+    "name_en": "Malo selo",
+    "name_bg": "Мало село"
+  },
+  {
+    "id": "5281003",
+    "slug": "manole",
+    "name_en": "Manole",
+    "name_bg": "Маноле"
+  },
+  {
+    "id": "5232045",
+    "slug": "manolovo",
+    "name_en": "Manolovo",
+    "name_bg": "Манолово"
+  },
+  {
+    "id": "5256022",
+    "slug": "marek",
+    "name_en": "Marek",
+    "name_bg": "Марек"
+  },
+  {
+    "id": "5256057",
+    "slug": "marikostino",
+    "name_en": "Marikostino",
+    "name_bg": "Марикостино"
+  },
+  {
+    "id": "5256058",
+    "slug": "marino-pole",
+    "name_en": "Marino pole",
+    "name_bg": "Марино поле"
+  },
+  {
+    "id": "5216404",
+    "slug": "marko-nikolov",
+    "name_en": "Marko Nikolov",
+    "name_bg": "Марко Николов"
+  },
+  {
+    "id": "5244024",
+    "slug": "maslinovo",
+    "name_en": "Maslinovo",
+    "name_bg": "Маслиново"
+  },
+  {
+    "id": "5272024",
+    "slug": "medkovec",
+    "name_en": "Medkovec",
+    "name_bg": "Медковец"
+  },
+  {
+    "id": "5224013",
+    "slug": "medovina",
+    "name_en": "Medovina",
+    "name_bg": "Медовина"
+  },
+  {
+    "id": "5294121",
+    "slug": "mezhden",
+    "name_en": "Mezhden",
+    "name_bg": "Межден"
+  },
+  {
+    "id": "5227000",
+    "slug": "mezdra",
+    "name_en": "Mezdra",
+    "name_bg": "Мездра"
+  },
+  {
+    "id": "5223027",
+    "slug": "mezdra-jug",
+    "name_en": "Mezdra-Jug",
+    "name_bg": "Мездра Юг"
+  },
+  {
+    "id": "5241003",
+    "slug": "merichleri",
+    "name_en": "Merichleri",
+    "name_bg": "Меричлери"
+  },
+  {
+    "id": "5241004",
+    "slug": "merichleri-sp",
+    "name_en": "Merichleri Sp.",
+    "name_bg": "Меричлери - спирка"
+  },
+  {
+    "id": "5251007",
+    "slug": "metal-stop",
+    "name_en": "Metal - stop",
+    "name_bg": "Метал - спирка"
+  },
+  {
+    "id": "5227208",
+    "slug": "milkovica",
+    "name_en": "Milkovica",
+    "name_bg": "Милковица"
+  },
+  {
+    "id": "5232018",
+    "slug": "mirkovo",
+    "name_en": "Mirkovo",
+    "name_bg": "Мирково"
+  },
+  {
+    "id": "5232028",
+    "slug": "mirkovo-st",
+    "name_en": "Mirkovo St.",
+    "name_bg": "Мирково - спирка"
+  },
+  {
+    "id": "5248000",
+    "slug": "mihajlovo",
+    "name_en": "Mihajlovo",
+    "name_bg": "Михайлово"
+  },
+  {
+    "id": "5227044",
+    "slug": "mihalci-stambolovo",
+    "name_en": "Mihalci-Stambolovo",
+    "name_bg": "Михалци-Стамболово"
+  },
+  {
+    "id": "5256103",
+    "slug": "mlamolovo",
+    "name_en": "Mlamolovo",
+    "name_bg": "Мламолово"
+  },
+  {
+    "id": "5216943",
+    "slug": "mokrishte",
+    "name_en": "Mokrishte",
+    "name_bg": "Мокрище"
+  },
+  {
+    "id": "5272205",
+    "slug": "momin-brod",
+    "name_en": "Momin Brod",
+    "name_bg": "Момин Брод"
+  },
+  {
+    "id": "5216027",
+    "slug": "momin-prohod",
+    "name_en": "Momin prohod",
+    "name_bg": "Момин проход"
+  },
+  {
+    "id": "5216033",
+    "slug": "momina-klisura",
+    "name_en": "Momina klisura",
+    "name_bg": "Момина клисура"
+  },
+  {
+    "id": "5244012",
+    "slug": "momina-skala",
+    "name_en": "Momina skala",
+    "name_bg": "Момина скала"
+  },
+  {
+    "id": "5244004",
+    "slug": "momchilgrad",
+    "name_en": "Momchilgrad",
+    "name_bg": "Момчилград"
+  },
+  {
+    "id": "5272102",
+    "slug": "montana",
+    "name_en": "Montana",
+    "name_bg": "Монтана"
+  },
+  {
+    "id": "5227404",
+    "slug": "morava",
+    "name_en": "Morava",
+    "name_bg": "Морава"
+  },
+  {
+    "id": "5272001",
+    "slug": "moravica",
+    "name_en": "Moravica",
+    "name_bg": "Моравица"
+  },
+  {
+    "id": "5242014",
+    "slug": "morunica",
+    "name_en": "Morunica",
+    "name_bg": "Моруница"
+  },
+  {
+    "id": "5229027",
+    "slug": "morjak",
+    "name_en": "Morjak",
+    "name_bg": "Моряк"
+  },
+  {
+    "id": "5244023",
+    "slug": "most",
+    "name_en": "Most",
+    "name_bg": "Мост"
+  },
+  {
+    "id": "5256202",
+    "slug": "muletarovo",
+    "name_en": "Muletarovo",
+    "name_bg": "Мулетарово"
+  },
+  {
+    "id": "5256035",
+    "slug": "mursalevo",
+    "name_en": "Mursalevo",
+    "name_bg": "Мурсалево"
+  },
+  {
+    "id": "5216908",
+    "slug": "musachevo",
+    "name_en": "Musachevo",
+    "name_bg": "Мусачево"
+  },
+  {
+    "id": "5244021",
+    "slug": "madrec",
+    "name_en": "Madrec",
+    "name_bg": "Мъдрец"
+  },
+  {
+    "id": "5272021",
+    "slug": "marchevo",
+    "name_en": "Marchevo",
+    "name_bg": "Мърчево"
+  },
+  {
+    "id": "5224031",
+    "slug": "matnica",
+    "name_en": "Matnica",
+    "name_bg": "Мътница"
+  },
+  {
+    "id": "5224027",
+    "slug": "nadarevo",
+    "name_en": "Nadarevo",
+    "name_bg": "Надарево"
+  },
+  {
+    "id": "5211023",
+    "slug": "nadezhda",
+    "name_en": "Nadezhda",
+    "name_bg": "Надежда - спирка"
+  },
+  {
+    "id": "5238011",
+    "slug": "nevestino",
+    "name_en": "Nevestino",
+    "name_bg": "Невестино"
+  },
+  {
+    "id": "5229003",
+    "slug": "nevsha",
+    "name_en": "Nevsha",
+    "name_bg": "Невша"
+  },
+  {
+    "id": "5232003",
+    "slug": "negovan",
+    "name_en": "Negovan",
+    "name_bg": "Негован"
+  },
+  {
+    "id": "5232012",
+    "slug": "negushevo",
+    "name_en": "Negushevo",
+    "name_bg": "Негушево"
+  },
+  {
+    "id": "5216026",
+    "slug": "nemirovo",
+    "name_en": "Nemirovo",
+    "name_bg": "Немирово"
+  },
+  {
+    "id": "5234003",
+    "slug": "nikolaevo",
+    "name_en": "Nikolaevo",
+    "name_bg": "Николаево"
+  },
+  {
+    "id": "5284010",
+    "slug": "nova-zagora",
+    "name_en": "Nova Zagora",
+    "name_bg": "Нова Загора"
+  },
+  {
+    "id": "5214004",
+    "slug": "nova-nadezhda",
+    "name_en": "Nova Nadezhda",
+    "name_bg": "Нова Надежда"
+  },
+  {
+    "id": "5238034",
+    "slug": "nova-shipka",
+    "name_en": "Nova Shipka",
+    "name_bg": "Нова Шипка"
+  },
+  {
+    "id": "5216909",
+    "slug": "obedinena",
+    "name_en": "Obedinena",
+    "name_bg": "Обединена"
+  },
+  {
+    "id": "5211021",
+    "slug": "obelja",
+    "name_en": "Obelja",
+    "name_bg": "Обеля"
+  },
+  {
+    "id": "5229707",
+    "slug": "oborishte",
+    "name_en": "Oborishte",
+    "name_bg": "Оборище"
+  },
+  {
+    "id": "5294003",
+    "slug": "obrazcov-chiflik",
+    "name_en": "Obrazcov chiflik",
+    "name_bg": "Образцов чифлик"
+  },
+  {
+    "id": "5281105",
+    "slug": "ovchepolci",
+    "name_en": "Ovchepolci",
+    "name_bg": "Овчеполци"
+  },
+  {
+    "id": "5216045",
+    "slug": "ognjanovo",
+    "name_en": "Ognjanovo",
+    "name_bg": "Огняново"
+  },
+  {
+    "id": "5227034",
+    "slug": "odarne",
+    "name_en": "Odarne",
+    "name_bg": "Одърне"
+  },
+  {
+    "id": "5223017",
+    "slug": "opletnja",
+    "name_en": "Opletnja",
+    "name_bg": "Оплетня"
+  },
+  {
+    "id": "5281005",
+    "slug": "opalchenec",
+    "name_en": "Opalchenec",
+    "name_bg": "Опълченец"
+  },
+  {
+    "id": "5227406",
+    "slug": "oresh",
+    "name_en": "Oresh",
+    "name_bg": "Ореш"
+  },
+  {
+    "id": "5234011",
+    "slug": "oreshak",
+    "name_en": "Oreshak",
+    "name_bg": "Орешак"
+  },
+  {
+    "id": "5272040",
+    "slug": "oreshec",
+    "name_en": "Oreshec",
+    "name_bg": "Орешец"
+  },
+  {
+    "id": "5281010",
+    "slug": "orizovo",
+    "name_en": "Orizovo",
+    "name_bg": "Оризово"
+  },
+  {
+    "id": "5223008",
+    "slug": "orlin",
+    "name_en": "Orlin",
+    "name_bg": "Орлин"
+  },
+  {
+    "id": "5223021",
+    "slug": "oselna",
+    "name_en": "Oselna",
+    "name_bg": "Оселна"
+  },
+  {
+    "id": "5232044",
+    "slug": "osetenovo",
+    "name_en": "Osetenovo",
+    "name_bg": "Осетеново"
+  },
+  {
+    "id": "5227002",
+    "slug": "oslen",
+    "name_en": "Oslen",
+    "name_bg": "Ослен"
+  },
+  {
+    "id": "5216412",
+    "slug": "ostrec",
+    "name_en": "Ostrec",
+    "name_bg": "Острец"
+  },
+  {
+    "id": "5281215",
+    "slug": "otdih",
+    "name_en": "Otdih",
+    "name_bg": "Отдих"
+  },
+  {
+    "id": "5272018",
+    "slug": "ohrid",
+    "name_en": "Ohrid",
+    "name_bg": "Охрид"
+  },
+  {
+    "id": "5232051",
+    "slug": "pavel-banja",
+    "name_en": "Pavel banja",
+    "name_bg": "Павел баня"
+  },
+  {
+    "id": "5227043",
+    "slug": "pavlikeni",
+    "name_en": "Pavlikeni",
+    "name_bg": "Павликени"
+  },
+  {
+    "id": "5216043",
+    "slug": "pazardzhik",
+    "name_en": "Pazardzhik",
+    "name_bg": "Пазарджик"
+  },
+  {
+    "id": "5272017",
+    "slug": "palilula",
+    "name_en": "Palilula",
+    "name_bg": "Палилула"
+  },
+  {
+    "id": "5281110",
+    "slug": "panagjurishte",
+    "name_en": "Panagjurishte",
+    "name_bg": "Панагюрище"
+  },
+  {
+    "id": "5224608",
+    "slug": "partizani",
+    "name_en": "Partizani",
+    "name_bg": "Партизани"
+  },
+  {
+    "id": "5256046",
+    "slug": "peio-javorov",
+    "name_en": "Peio Javorov",
+    "name_bg": "Пейо Яворов"
+  },
+  {
+    "id": "5256000",
+    "slug": "pernik",
+    "name_en": "Pernik",
+    "name_bg": "Перник"
+  },
+  {
+    "id": "5251009",
+    "slug": "pernik-razpredelit",
+    "name_en": "Pernik-Razpredelit.",
+    "name_bg": "Перник Разпределит."
+  },
+  {
+    "id": "5244020",
+    "slug": "perperek",
+    "name_en": "Perperek",
+    "name_bg": "Перперек"
+  },
+  {
+    "id": "5281213",
+    "slug": "pesnopoj",
+    "name_en": "Pesnopoj",
+    "name_bg": "Песнопой"
+  },
+  {
+    "id": "5242005",
+    "slug": "petko-karavelovo",
+    "name_en": "Petko Karavelovo",
+    "name_bg": "Петко Каравелово"
+  },
+  {
+    "id": "5256210",
+    "slug": "petrich",
+    "name_en": "Petrich",
+    "name_bg": "Петрич"
+  },
+  {
+    "id": "5211013",
+    "slug": "petarch",
+    "name_en": "Petarch",
+    "name_bg": "Петърч"
+  },
+  {
+    "id": "5216510",
+    "slug": "peshtera",
+    "name_en": "Peshtera",
+    "name_bg": "Пещера"
+  },
+  {
+    "id": "5232021",
+    "slug": "pirdop",
+    "name_en": "Pirdop",
+    "name_bg": "Пирдоп"
+  },
+  {
+    "id": "5243010",
+    "slug": "plachkovci",
+    "name_en": "Plachkovci",
+    "name_bg": "Плачковци"
+  },
+  {
+    "id": "5227030",
+    "slug": "pleven",
+    "name_en": "Pleven",
+    "name_bg": "Плевен"
+  },
+  {
+    "id": "5227022",
+    "slug": "pleven-zapad",
+    "name_en": "Pleven -Zapad",
+    "name_bg": "Плевен Запад"
+  },
+  {
+    "id": "5294026",
+    "slug": "pliska",
+    "name_en": "Pliska",
+    "name_bg": "Плиска"
+  },
+  {
+    "id": "5218000",
+    "slug": "plovdiv",
+    "name_en": "Plovdiv",
+    "name_bg": "Пловдив"
+  },
+  {
+    "id": "5284005",
+    "slug": "ploska-mogila",
+    "name_en": "Ploska mogila",
+    "name_bg": "Плоска могила"
+  },
+  {
+    "id": "5216013",
+    "slug": "pobit-kamak",
+    "name_en": "Pobit kamak",
+    "name_bg": "Побит камък"
+  },
+  {
+    "id": "5229023",
+    "slug": "poveljanovo",
+    "name_en": "Poveljanovo",
+    "name_bg": "Повеляново"
+  },
+  {
+    "id": "5238015",
+    "slug": "podvis",
+    "name_en": "Podvis",
+    "name_bg": "Подвис"
+  },
+  {
+    "id": "5224021",
+    "slug": "podgorica",
+    "name_en": "Podgorica",
+    "name_bg": "Подгорица"
+  },
+  {
+    "id": "5227205",
+    "slug": "podem",
+    "name_en": "Podem",
+    "name_bg": "Подем"
+  },
+  {
+    "id": "5244000",
+    "slug": "podkova",
+    "name_en": "Podkova",
+    "name_bg": "Подкова"
+  },
+  {
+    "id": "5216001",
+    "slug": "podujane-passenger",
+    "name_en": "Podujane Passenger",
+    "name_bg": "Подуяне Пътническа"
+  },
+  {
+    "id": "5216002",
+    "slug": "podujane-razprsrr",
+    "name_en": "Podujane Razpr.sr.r.",
+    "name_bg": "Подуяне Разпр.ср.р."
+  },
+  {
+    "id": "5227048",
+    "slug": "polikrajshte",
+    "name_en": "Polikrajshte",
+    "name_bg": "Поликраище"
+  },
+  {
+    "id": "5242006",
+    "slug": "polski-senovec",
+    "name_en": "Polski Senovec",
+    "name_bg": "Полски Сеновец"
+  },
+  {
+    "id": "5242010",
+    "slug": "polski-trambesh",
+    "name_en": "Polski Trambesh",
+    "name_bg": "Полски Тръмбеш"
+  },
+  {
+    "id": "5242011",
+    "slug": "polsko-kosovo",
+    "name_en": "Polsko Kosovo",
+    "name_bg": "Полско Косово"
+  },
+  {
+    "id": "5218005",
+    "slug": "popovica",
+    "name_en": "Popovica",
+    "name_bg": "Поповица"
+  },
+  {
+    "id": "5224014",
+    "slug": "popovo",
+    "name_en": "Popovo",
+    "name_bg": "Попово"
+  },
+  {
+    "id": "5227033",
+    "slug": "pordim",
+    "name_en": "Pordim",
+    "name_bg": "Пордим"
+  },
+  {
+    "id": "5242001",
+    "slug": "pravda",
+    "name_en": "Pravda",
+    "name_bg": "Правда"
+  },
+  {
+    "id": "5265029",
+    "slug": "prekolnica",
+    "name_en": "Prekolnica",
+    "name_bg": "Преколница"
+  },
+  {
+    "id": "5214012",
+    "slug": "preslavec",
+    "name_en": "Preslavec",
+    "name_bg": "Преславец"
+  },
+  {
+    "id": "5265001",
+    "slug": "priboj",
+    "name_en": "Priboj",
+    "name_bg": "Прибой"
+  },
+  {
+    "id": "5238016",
+    "slug": "prilep",
+    "name_en": "Prilep",
+    "name_bg": "Прилеп"
+  },
+  {
+    "id": "5229010",
+    "slug": "provadija",
+    "name_en": "Provadija",
+    "name_bg": "Провадия"
+  },
+  {
+    "id": "5223019",
+    "slug": "prolet",
+    "name_en": "Prolet",
+    "name_bg": "Пролет"
+  },
+  {
+    "id": "5216053",
+    "slug": "proslav",
+    "name_en": "Proslav",
+    "name_bg": "Прослав"
+  },
+  {
+    "id": "5294011",
+    "slug": "prostorno",
+    "name_en": "Prostorno",
+    "name_bg": "Просторно"
+  },
+  {
+    "id": "5244002",
+    "slug": "ptichar",
+    "name_en": "Ptichar",
+    "name_bg": "Птичар"
+  },
+  {
+    "id": "5218010",
+    "slug": "parvomaj",
+    "name_en": "Parvomaj",
+    "name_bg": "Първомай"
+  },
+  {
+    "id": "5229004",
+    "slug": "ravna",
+    "name_en": "Ravna",
+    "name_bg": "Равна"
+  },
+  {
+    "id": "5229714",
+    "slug": "ravnec",
+    "name_en": "Ravnec",
+    "name_bg": "Равнец"
+  },
+  {
+    "id": "5216907",
+    "slug": "ravno-pole",
+    "name_en": "Ravno pole",
+    "name_bg": "Равно поле"
+  },
+  {
+    "id": "5242007",
+    "slug": "radanovo",
+    "name_en": "Radanovo",
+    "name_bg": "Раданово"
+  },
+  {
+    "id": "5243006",
+    "slug": "radevci",
+    "name_en": "Radevci",
+    "name_bg": "Радевци"
+  },
+  {
+    "id": "5224602",
+    "slug": "radko-dimitrievo",
+    "name_en": "Radko Dimitrievo",
+    "name_bg": "Радко Димитриев"
+  },
+  {
+    "id": "5227006",
+    "slug": "radovene",
+    "name_en": "Radovene",
+    "name_bg": "Радовене"
+  },
+  {
+    "id": "5256010",
+    "slug": "radomir",
+    "name_en": "Radomir",
+    "name_bg": "Радомир"
+  },
+  {
+    "id": "5261006",
+    "slug": "raduj",
+    "name_en": "Raduj",
+    "name_bg": "Радуй"
+  },
+  {
+    "id": "5243002",
+    "slug": "radunci",
+    "name_en": "Radunci",
+    "name_bg": "Радунци"
+  },
+  {
+    "id": "5265012",
+    "slug": "razhdavica",
+    "name_en": "Razhdavica",
+    "name_bg": "Раждавица"
+  },
+  {
+    "id": "5294013",
+    "slug": "razgrad",
+    "name_en": "Razgrad",
+    "name_bg": "Разград"
+  },
+  {
+    "id": "5229022",
+    "slug": "razdelna",
+    "name_en": "Razdelna",
+    "name_bg": "Разделна"
+  },
+  {
+    "id": "5216426",
+    "slug": "razlog",
+    "name_en": "Razlog",
+    "name_bg": "Разлог"
+  },
+  {
+    "id": "5261007",
+    "slug": "razmenna",
+    "name_en": "Razmenna",
+    "name_bg": "Разменна"
+  },
+  {
+    "id": "5261009",
+    "slug": "razmenna-sp",
+    "name_en": "Razmenna Sp.",
+    "name_bg": "Разменна - спирка"
+  },
+  {
+    "id": "5272016",
+    "slug": "rakevo",
+    "name_en": "Rakevo",
+    "name_bg": "Ракево"
+  },
+  {
+    "id": "5294012",
+    "slug": "rakovski",
+    "name_en": "Rakovski",
+    "name_bg": "Раковски"
+  },
+  {
+    "id": "5223006",
+    "slug": "rebrovo",
+    "name_en": "Rebrovo",
+    "name_bg": "Реброво"
+  },
+  {
+    "id": "5223025",
+    "slug": "rebarkovo",
+    "name_en": "Rebarkovo",
+    "name_bg": "Ребърково"
+  },
+  {
+    "id": "5227009",
+    "slug": "reselec-sp",
+    "name_en": "Reselec - Sp.",
+    "name_bg": "Реселец - спирка"
+  },
+  {
+    "id": "5227047",
+    "slug": "resen",
+    "name_en": "Resen",
+    "name_bg": "Ресен"
+  },
+  {
+    "id": "5244001",
+    "slug": "rogozche",
+    "name_en": "Rogozche",
+    "name_bg": "Рогозче"
+  },
+  {
+    "id": "5232026",
+    "slug": "rozino",
+    "name_en": "Rozino",
+    "name_bg": "Розино"
+  },
+  {
+    "id": "5227005",
+    "slug": "roman",
+    "name_en": "Roman",
+    "name_bg": "Роман"
+  },
+  {
+    "id": "5223003",
+    "slug": "romcha",
+    "name_en": "Romcha",
+    "name_bg": "Ромча"
+  },
+  {
+    "id": "5294114",
+    "slug": "rujno",
+    "name_en": "Rujno",
+    "name_bg": "Руйно"
+  },
+  {
+    "id": "5256201",
+    "slug": "rupite",
+    "name_en": "Rupite",
+    "name_bg": "Рупите"
+  },
+  {
+    "id": "5227012",
+    "slug": "rupci-sever",
+    "name_en": "Rupci-Sever",
+    "name_bg": "Рупци - Север"
+  },
+  {
+    "id": "5227046",
+    "slug": "rusalja-dichin",
+    "name_en": "Rusalja-Dichin",
+    "name_bg": "Русаля Дичин"
+  },
+  {
+    "id": "5249000",
+    "slug": "ruse",
+    "name_en": "Ruse",
+    "name_bg": "Русе"
+  },
+  {
+    "id": "5294001",
+    "slug": "ruse-razpredelitelna",
+    "name_en": "Ruse-Razpredelitelna",
+    "name_bg": "Русе Разпределителна"
+  },
+  {
+    "id": "5249002",
+    "slug": "ruse-tovarna-sp",
+    "name_en": "Ruse-Tovarna Sp.",
+    "name_bg": "Русе Товарна - спирка"
+  },
+  {
+    "id": "5272002",
+    "slug": "ruska-bjala",
+    "name_en": "Ruska Bjala",
+    "name_bg": "Руска Бяла"
+  },
+  {
+    "id": "5218003",
+    "slug": "sadovo",
+    "name_en": "Sadovo",
+    "name_bg": "Садово"
+  },
+  {
+    "id": "5243029",
+    "slug": "samovodene",
+    "name_en": "Samovodene",
+    "name_bg": "Самоводене"
+  },
+  {
+    "id": "5294020",
+    "slug": "samuil",
+    "name_en": "Samuil",
+    "name_bg": "Самуил"
+  },
+  {
+    "id": "5281015",
+    "slug": "samuilovo",
+    "name_en": "Samuilovo",
+    "name_bg": "Самуилово"
+  },
+  {
+    "id": "5256054",
+    "slug": "sandanski",
+    "name_en": "Sandanski",
+    "name_bg": "Сандански"
+  },
+  {
+    "id": "5232013",
+    "slug": "saranci",
+    "name_en": "Saranci",
+    "name_bg": "Саранци"
+  },
+  {
+    "id": "5232052",
+    "slug": "sahrane",
+    "name_en": "Sahrane",
+    "name_bg": "Сахране"
+  },
+  {
+    "id": "5234007",
+    "slug": "sborishte",
+    "name_en": "Sborishte",
+    "name_bg": "Сборище"
+  },
+  {
+    "id": "5232042",
+    "slug": "svezhen",
+    "name_en": "Svezhen",
+    "name_bg": "Свежен"
+  },
+  {
+    "id": "5216414",
+    "slug": "sveta-petka",
+    "name_en": "Sveta Petka",
+    "name_bg": "Света Петка"
+  },
+  {
+    "id": "5216428",
+    "slug": "sveti-georgi",
+    "name_en": "Sveti Georgi",
+    "name_bg": "Свети Георги"
+  },
+  {
+    "id": "5224015",
+    "slug": "svetlen",
+    "name_en": "Svetlen",
+    "name_bg": "Светлен"
+  },
+  {
+    "id": "5281218",
+    "slug": "svetlina-sp",
+    "name_en": "Svetlina - Sp.",
+    "name_bg": "Светлина - спирка"
+  },
+  {
+    "id": "5232002",
+    "slug": "svetovrachane",
+    "name_en": "Svetovrachane",
+    "name_bg": "Световрачане"
+  },
+  {
+    "id": "5214020",
+    "slug": "svilengrad",
+    "name_en": "Svilengrad",
+    "name_bg": "Свиленград"
+  },
+  {
+    "id": "5227410",
+    "slug": "svishtov",
+    "name_en": "Svishtov",
+    "name_bg": "Свищов"
+  },
+  {
+    "id": "5281014",
+    "slug": "svoboda",
+    "name_en": "Svoboda",
+    "name_bg": "Свобода"
+  },
+  {
+    "id": "5223010",
+    "slug": "svoge",
+    "name_en": "Svoge",
+    "name_bg": "Своге"
+  },
+  {
+    "id": "5234014",
+    "slug": "seliminovo",
+    "name_en": "Seliminovo",
+    "name_bg": "Селиминово"
+  },
+  {
+    "id": "5294010",
+    "slug": "senovo",
+    "name_en": "Senovo",
+    "name_bg": "Сеново"
+  },
+  {
+    "id": "5216040",
+    "slug": "septemvri",
+    "name_en": "Septemvri",
+    "name_bg": "Септември"
+  },
+  {
+    "id": "5216032",
+    "slug": "sestrimo",
+    "name_en": "Sestrimo",
+    "name_bg": "Сестримо"
+  },
+  {
+    "id": "5294130",
+    "slug": "silistra",
+    "name_en": "Silistra",
+    "name_bg": "Силистра"
+  },
+  {
+    "id": "5214010",
+    "slug": "simeonovgrad",
+    "name_en": "Simeonovgrad",
+    "name_bg": "Симеоновград"
+  },
+  {
+    "id": "5256043",
+    "slug": "simitli",
+    "name_en": "Simitli",
+    "name_bg": "Симитли"
+  },
+  {
+    "id": "5272046",
+    "slug": "sinagovci-gurkovo",
+    "name_en": "Sinagovci-Gurkovo",
+    "name_bg": "Синаговци-Гурково"
+  },
+  {
+    "id": "5229020",
+    "slug": "sindel",
+    "name_en": "Sindel",
+    "name_bg": "Синдел"
+  },
+  {
+    "id": "5216044",
+    "slug": "sinitovo",
+    "name_en": "Sinitovo",
+    "name_bg": "Синитово"
+  },
+  {
+    "id": "5227003",
+    "slug": "sinjo-bardo",
+    "name_en": "Sinjo bardo",
+    "name_bg": "Синьо бърдо"
+  },
+  {
+    "id": "5265011",
+    "slug": "skakavica",
+    "name_en": "Skakavica",
+    "name_bg": "Скакавица"
+  },
+  {
+    "id": "5218012",
+    "slug": "skobelevo",
+    "name_en": "Skobelevo",
+    "name_bg": "Скобелево"
+  },
+  {
+    "id": "5272035",
+    "slug": "skomlja-kanton-43",
+    "name_en": "Skomlja (Kanton-43)",
+    "name_bg": "Скомля / Кантон-43"
+  },
+  {
+    "id": "5281002",
+    "slug": "skutare",
+    "name_en": "Skutare",
+    "name_bg": "Скутаре"
+  },
+  {
+    "id": "5224012",
+    "slug": "slavjanovo",
+    "name_en": "Slavjanovo",
+    "name_bg": "Славяново"
+  },
+  {
+    "id": "5272048",
+    "slug": "slana-bara",
+    "name_en": "Slana bara",
+    "name_bg": "Слана бара"
+  },
+  {
+    "id": "5234019",
+    "slug": "sliven",
+    "name_en": "Sliven",
+    "name_bg": "Сливен"
+  },
+  {
+    "id": "5211012",
+    "slug": "slivnica",
+    "name_en": "Slivnica",
+    "name_bg": "Сливница"
+  },
+  {
+    "id": "5211011",
+    "slug": "slivnica-sp",
+    "name_en": "Slivnica Sp.",
+    "name_bg": "Сливница - спирка"
+  },
+  {
+    "id": "5281107",
+    "slug": "smilec",
+    "name_en": "Smilec",
+    "name_bg": "Смилец"
+  },
+  {
+    "id": "5216004",
+    "slug": "smirnenski",
+    "name_en": "Smirnenski",
+    "name_bg": "Смирненски"
+  },
+  {
+    "id": "5216416",
+    "slug": "smolevo",
+    "name_en": "Smolevo",
+    "name_bg": "Смолево"
+  },
+  {
+    "id": "5224604",
+    "slug": "smjadovo",
+    "name_en": "Smjadovo",
+    "name_bg": "Смядово"
+  },
+  {
+    "id": "5265021",
+    "slug": "sovoljano",
+    "name_en": "Sovoljano",
+    "name_bg": "Соволяно"
+  },
+  {
+    "id": "5243025",
+    "slug": "sokolovo",
+    "name_en": "Sokolovo",
+    "name_bg": "Соколово"
+  },
+  {
+    "id": "5229012",
+    "slug": "solna-mina",
+    "name_en": "Solna mina",
+    "name_bg": "Солна мина"
+  },
+  {
+    "id": "5227210",
+    "slug": "somovit",
+    "name_en": "Somovit",
+    "name_bg": "Сомовит"
+  },
+  {
+    "id": "5232034",
+    "slug": "sopot",
+    "name_en": "Sopot",
+    "name_bg": "Сопот"
+  },
+  {
+    "id": "5216000",
+    "slug": "sofia",
+    "name_en": "Sofia",
+    "name_bg": "София"
+  },
+  {
+    "id": "5226001",
+    "slug": "sofia-sever",
+    "name_en": "Sofia-Sever",
+    "name_bg": "София Север"
+  },
+  {
+    "id": "5281012",
+    "slug": "spasovo",
+    "name_en": "Spasovo",
+    "name_bg": "Спасово"
+  },
+  {
+    "id": "5251008",
+    "slug": "stop-gorna-banja-metro",
+    "name_en": "stop Gorna banja - metro",
+    "name_bg": "спирка Горна баня - метростанция"
+  },
+  {
+    "id": "5272044",
+    "slug": "sracimir",
+    "name_en": "Sracimir",
+    "name_bg": "Срацимир"
+  },
+  {
+    "id": "5244015",
+    "slug": "sredna-arda",
+    "name_en": "Sredna Arda",
+    "name_bg": "Средна Арда"
+  },
+  {
+    "id": "5243013",
+    "slug": "stajnovci",
+    "name_en": "Stajnovci",
+    "name_bg": "Стайновци"
+  },
+  {
+    "id": "5218013",
+    "slug": "stalevo",
+    "name_en": "Stalevo",
+    "name_bg": "Сталево"
+  },
+  {
+    "id": "5272203",
+    "slug": "stalijska-mahala",
+    "name_en": "Stalijska mahala",
+    "name_bg": "Сталийска махала"
+  },
+  {
+    "id": "5216050",
+    "slug": "stambolijski",
+    "name_en": "Stambolijski",
+    "name_bg": "Стамболийски"
+  },
+  {
+    "id": "5216025",
+    "slug": "stambolovo",
+    "name_en": "Stambolovo",
+    "name_bg": "Стамболово"
+  },
+  {
+    "id": "5224017",
+    "slug": "stamo-kostov",
+    "name_en": "Stamo Kostov",
+    "name_bg": "Стамо Костов"
+  },
+  {
+    "id": "5248010",
+    "slug": "stara-zagora",
+    "name_en": "Stara Zagora",
+    "name_bg": "Стара Загора"
+  },
+  {
+    "id": "5256045",
+    "slug": "stara-kresna",
+    "name_en": "Stara Kresna",
+    "name_bg": "Стара Кресна"
+  },
+  {
+    "id": "5243201",
+    "slug": "stojchevci",
+    "name_en": "Stojchevci",
+    "name_bg": "Стойчевци"
+  },
+  {
+    "id": "5232010",
+    "slug": "stolnik",
+    "name_en": "Stolnik",
+    "name_bg": "Столник"
+  },
+  {
+    "id": "5216432",
+    "slug": "stoyan-mitov",
+    "name_en": "Stoyan Mitov",
+    "name_bg": "Стоян Митов"
+  },
+  {
+    "id": "5224005",
+    "slug": "strazhica",
+    "name_en": "Strazhica",
+    "name_bg": "Стражица"
+  },
+  {
+    "id": "5238001",
+    "slug": "straldzha",
+    "name_en": "Straldzha",
+    "name_bg": "Стралджа"
+  },
+  {
+    "id": "5229026",
+    "slug": "strashimirovo",
+    "name_en": "Strashimirovo",
+    "name_bg": "Страшимирово"
+  },
+  {
+    "id": "5281109",
+    "slug": "strelcha",
+    "name_en": "Strelcha",
+    "name_bg": "Стрелча"
+  },
+  {
+    "id": "5214001",
+    "slug": "stroitel",
+    "name_en": "Stroitel",
+    "name_bg": "Строител"
+  },
+  {
+    "id": "5256052",
+    "slug": "strumjani",
+    "name_en": "Strumjani",
+    "name_bg": "Струмяни"
+  },
+  {
+    "id": "5227004",
+    "slug": "strupec",
+    "name_en": "Strupec",
+    "name_bg": "Струпец"
+  },
+  {
+    "id": "5238027",
+    "slug": "struja",
+    "name_en": "Struja",
+    "name_bg": "Струя"
+  },
+  {
+    "id": "5232024",
+    "slug": "strjama",
+    "name_en": "Strjama",
+    "name_bg": "Стряма"
+  },
+  {
+    "id": "5242013",
+    "slug": "starmen",
+    "name_en": "Starmen",
+    "name_bg": "Стърмен"
+  },
+  {
+    "id": "5229704",
+    "slug": "suvorovo",
+    "name_en": "Suvorovo",
+    "name_bg": "Суворово"
+  },
+  {
+    "id": "5243202",
+    "slug": "sabotkovci",
+    "name_en": "Sabotkovci",
+    "name_bg": "Съботковци"
+  },
+  {
+    "id": "5281103",
+    "slug": "saedinenie",
+    "name_en": "Saedinenie",
+    "name_bg": "Съединение"
+  },
+  {
+    "id": "5242023",
+    "slug": "tabachka",
+    "name_en": "Tabachka",
+    "name_bg": "Табачка"
+  },
+  {
+    "id": "5234021",
+    "slug": "tanju-vojvoda",
+    "name_en": "Tanju vojvoda",
+    "name_bg": "Таню войвода"
+  },
+  {
+    "id": "5234006",
+    "slug": "tvardica",
+    "name_en": "Tvardica",
+    "name_bg": "Твърдица"
+  },
+  {
+    "id": "5227014",
+    "slug": "telish",
+    "name_en": "Telish",
+    "name_bg": "Телиш"
+  },
+  {
+    "id": "5216052",
+    "slug": "todor-kableshkov",
+    "name_en": "Todor Kableshkov",
+    "name_bg": "Тодор Каблешков"
+  },
+  {
+    "id": "5294112",
+    "slug": "todorovo",
+    "name_en": "Todorovo",
+    "name_bg": "Тодорово"
+  },
+  {
+    "id": "5223007",
+    "slug": "tompsan",
+    "name_en": "Tompsan",
+    "name_bg": "Томпсън"
+  },
+  {
+    "id": "5281104",
+    "slug": "topoli-dol",
+    "name_en": "Topoli dol",
+    "name_bg": "Тополи дол"
+  },
+  {
+    "id": "5229029",
+    "slug": "topolite",
+    "name_en": "Topolite",
+    "name_bg": "Тополите"
+  },
+  {
+    "id": "5283004",
+    "slug": "topolica",
+    "name_en": "Topolica",
+    "name_bg": "Тополица"
+  },
+  {
+    "id": "5272204",
+    "slug": "trajkovo",
+    "name_en": "Trajkovo",
+    "name_bg": "Трайково"
+  },
+  {
+    "id": "5218901",
+    "slug": "trakija",
+    "name_en": "Trakija",
+    "name_bg": "Тракия"
+  },
+  {
+    "id": "5224035",
+    "slug": "trakija-shumen",
+    "name_en": "Trakija (Shumen)",
+    "name_bg": "Тракия (Шумен)"
+  },
+  {
+    "id": "5243028",
+    "slug": "trapezica",
+    "name_en": "Trapezica",
+    "name_bg": "Трапезица"
+  },
+  {
+    "id": "5227320",
+    "slug": "trojan",
+    "name_en": "Trojan",
+    "name_bg": "Троян"
+  },
+  {
+    "id": "5281201",
+    "slug": "trud",
+    "name_en": "Trud",
+    "name_bg": "Труд"
+  },
+  {
+    "id": "5238026",
+    "slug": "tranak",
+    "name_en": "Trаnak",
+    "name_bg": "Трънак"
+  },
+  {
+    "id": "5229021",
+    "slug": "trastikovo",
+    "name_en": "Trastikovo",
+    "name_bg": "Тръстиково"
+  },
+  {
+    "id": "5243012",
+    "slug": "trjavna",
+    "name_en": "Trjavna",
+    "name_bg": "Трявна"
+  },
+  {
+    "id": "5234000",
+    "slug": "tulovo",
+    "name_en": "Tulovo",
+    "name_bg": "Тулово"
+  },
+  {
+    "id": "5232046",
+    "slug": "tazha",
+    "name_en": "Tazha",
+    "name_bg": "Тъжа"
+  },
+  {
+    "id": "5224024",
+    "slug": "targovishte",
+    "name_en": "Targovishte",
+    "name_bg": "Търговище"
+  },
+  {
+    "id": "5232047",
+    "slug": "tarnicheni",
+    "name_en": "Tarnicheni",
+    "name_bg": "Търничани"
+  },
+  {
+    "id": "5244034",
+    "slug": "uzundzhovo",
+    "name_en": "Uzundzhovo",
+    "name_bg": "Узунджово"
+  },
+  {
+    "id": "5227308",
+    "slug": "umarevci",
+    "name_en": "Umarevci",
+    "name_bg": "Умаревци"
+  },
+  {
+    "id": "5256033",
+    "slug": "usojka",
+    "name_en": "Usojka",
+    "name_bg": "Усойка"
+  },
+  {
+    "id": "5281001",
+    "slug": "filipovo",
+    "name_en": "Filipovo",
+    "name_bg": "Филипово"
+  },
+  {
+    "id": "5216046",
+    "slug": "hadzhievo",
+    "name_en": "Hadzhievo",
+    "name_bg": "Хаджиево"
+  },
+  {
+    "id": "5284003",
+    "slug": "han-asparuh",
+    "name_en": "Han Asparuh",
+    "name_bg": "Хан Аспарух"
+  },
+  {
+    "id": "5224029",
+    "slug": "han-krum",
+    "name_en": "Han Krum",
+    "name_bg": "Хан Крум"
+  },
+  {
+    "id": "5214013",
+    "slug": "harmanli",
+    "name_en": "Harmanli",
+    "name_bg": "Харманли"
+  },
+  {
+    "id": "5214906",
+    "slug": "harmanli-central",
+    "name_en": "Harmanli Central",
+    "name_bg": "Харманли Център"
+  },
+  {
+    "id": "5244033",
+    "slug": "haskovo",
+    "name_en": "Haskovo",
+    "name_bg": "Хасково"
+  },
+  {
+    "id": "5261002",
+    "slug": "herakovo",
+    "name_en": "Herakovo",
+    "name_bg": "Хераково"
+  },
+  {
+    "id": "5281220",
+    "slug": "hisar",
+    "name_en": "Hisar",
+    "name_bg": "Хисар"
+  },
+  {
+    "id": "5294023",
+    "slug": "hitrino",
+    "name_en": "Hitrino",
+    "name_bg": "Хитрино"
+  },
+  {
+    "id": "5227318",
+    "slug": "hlevene",
+    "name_en": "Hlevene",
+    "name_bg": "Хлевене"
+  },
+  {
+    "id": "5261003",
+    "slug": "hrabarsko",
+    "name_en": "Hrabarsko",
+    "name_bg": "Храбърско"
+  },
+  {
+    "id": "5248003",
+    "slug": "hristijanovo",
+    "name_en": "Hristijanovo",
+    "name_bg": "Християново"
+  },
+  {
+    "id": "5232030",
+    "slug": "hristo-danovo",
+    "name_en": "Hristo Danovo",
+    "name_bg": "Христо Даново"
+  },
+  {
+    "id": "5227013",
+    "slug": "humata",
+    "name_en": "Humata",
+    "name_bg": "Хумата"
+  },
+  {
+    "id": "5294101",
+    "slug": "harsovo",
+    "name_en": "Harsovo",
+    "name_bg": "Хърсово"
+  },
+  {
+    "id": "5281106",
+    "slug": "car-asen",
+    "name_en": "Car Asen",
+    "name_bg": "Цар Асен"
+  },
+  {
+    "id": "5281101",
+    "slug": "caracovo",
+    "name_en": "Caracovo",
+    "name_bg": "Царацово"
+  },
+  {
+    "id": "5243020",
+    "slug": "tsareva-livada",
+    "name_en": "Tsareva Livada",
+    "name_bg": "Царева ливада"
+  },
+  {
+    "id": "5244025",
+    "slug": "careva-poljana",
+    "name_en": "Careva poljana",
+    "name_bg": "Царева поляна"
+  },
+  {
+    "id": "5229014",
+    "slug": "carevci",
+    "name_en": "Carevci",
+    "name_bg": "Царевци"
+  },
+  {
+    "id": "5216413",
+    "slug": "cvetino",
+    "name_en": "Cvetino",
+    "name_bg": "Цветино"
+  },
+  {
+    "id": "5216405",
+    "slug": "cepina",
+    "name_en": "Cepina",
+    "name_bg": "Цепина"
+  },
+  {
+    "id": "5238004",
+    "slug": "cerkovski",
+    "name_en": "Cerkovski",
+    "name_bg": "Церковски"
+  },
+  {
+    "id": "5265025",
+    "slug": "cerovica",
+    "name_en": "Cerovica",
+    "name_bg": "Церовица"
+  },
+  {
+    "id": "5223012",
+    "slug": "cerovo",
+    "name_en": "Cerovo",
+    "name_bg": "Церово"
+  },
+  {
+    "id": "5227303",
+    "slug": "chavdarci",
+    "name_en": "Chavdarci",
+    "name_bg": "Чавдарци"
+  },
+  {
+    "id": "5232014",
+    "slug": "chekanchevo",
+    "name_en": "Chekanchevo",
+    "name_bg": "Чеканчево"
+  },
+  {
+    "id": "5232019",
+    "slug": "chelopech",
+    "name_en": "Chelopech",
+    "name_bg": "Челопеч"
+  },
+  {
+    "id": "5227010",
+    "slug": "cherven-brjag",
+    "name_en": "Cherven brjag",
+    "name_bg": "Червен бряг"
+  },
+  {
+    "id": "5227401",
+    "slug": "chervena",
+    "name_en": "Chervena",
+    "name_bg": "Червена"
+  },
+  {
+    "id": "5294004",
+    "slug": "chervena-voda",
+    "name_en": "Chervena voda",
+    "name_bg": "Червена вода"
+  },
+  {
+    "id": "5232057",
+    "slug": "cherganovo",
+    "name_en": "Cherganovo",
+    "name_bg": "Черганово"
+  },
+  {
+    "id": "5223023",
+    "slug": "cherepish",
+    "name_en": "Cherepish",
+    "name_bg": "Черепиш"
+  },
+  {
+    "id": "5227211",
+    "slug": "cherkvica",
+    "name_en": "Cherkvica",
+    "name_bg": "Черквица"
+  },
+  {
+    "id": "5281011",
+    "slug": "cherna-gora",
+    "name_en": "Cherna gora",
+    "name_bg": "Черна гора"
+  },
+  {
+    "id": "5216417",
+    "slug": "cherna-mesta",
+    "name_en": "Cherna Mesta",
+    "name_bg": "Черна Места"
+  },
+  {
+    "id": "5229703",
+    "slug": "chernevo",
+    "name_en": "Chernevo",
+    "name_bg": "Чернево"
+  },
+  {
+    "id": "5294115",
+    "slug": "chernik",
+    "name_en": "Chernik",
+    "name_bg": "Черник"
+  },
+  {
+    "id": "5256044",
+    "slug": "cherniche",
+    "name_en": "Cherniche",
+    "name_bg": "Черниче"
+  },
+  {
+    "id": "5281217",
+    "slug": "chernichevo",
+    "name_en": "Chernichevo",
+    "name_bg": "Черничево"
+  },
+  {
+    "id": "5214003",
+    "slug": "chernogorovo",
+    "name_en": "Chernogorovo",
+    "name_bg": "Черногорово"
+  },
+  {
+    "id": "5283003",
+    "slug": "chernograd",
+    "name_en": "Chernograd",
+    "name_bg": "Черноград"
+  },
+  {
+    "id": "5281204",
+    "slug": "chernozem",
+    "name_en": "Chernozem",
+    "name_bg": "Чернозем"
+  },
+  {
+    "id": "5224905",
+    "slug": "chestovo-sp",
+    "name_en": "Chestovo-Sp.",
+    "name_bg": "Честово - спирка"
+  },
+  {
+    "id": "5218004",
+    "slug": "cheshnegirovo",
+    "name_en": "Cheshnegirovo",
+    "name_bg": "Чешнигирово"
+  },
+  {
+    "id": "5234013",
+    "slug": "chintulovo",
+    "name_en": "Chintulovo",
+    "name_bg": "Чинтулово"
+  },
+  {
+    "id": "5281013",
+    "slug": "chirpan",
+    "name_en": "Chirpan",
+    "name_bg": "Чирпан"
+  },
+  {
+    "id": "5227203",
+    "slug": "chiflik",
+    "name_en": "Chiflik",
+    "name_bg": "Чифлик"
+  },
+  {
+    "id": "5256014",
+    "slug": "chukovec",
+    "name_en": "Chukovec",
+    "name_bg": "Чуковец"
+  },
+  {
+    "id": "5234010",
+    "slug": "chumerna",
+    "name_en": "Chumerna",
+    "name_bg": "Чумерна"
+  },
+  {
+    "id": "5234008",
+    "slug": "shivachevo",
+    "name_en": "Shivachevo",
+    "name_bg": "Шивачево"
+  },
+  {
+    "id": "5244013",
+    "slug": "shiroko-pole",
+    "name_en": "Shiroko pole",
+    "name_bg": "Широко поле"
+  },
+  {
+    "id": "5265013",
+    "slug": "shishkovci",
+    "name_en": "Shishkovci",
+    "name_bg": "Шишковци"
+  },
+  {
+    "id": "5224030",
+    "slug": "shumen",
+    "name_en": "Shumen",
+    "name_bg": "Шумен"
+  },
+  {
+    "id": "5238040",
+    "slug": "junak",
+    "name_en": "Junak",
+    "name_bg": "Юнак"
+  },
+  {
+    "id": "5216421",
+    "slug": "jurukovo",
+    "name_en": "Jurukovo",
+    "name_bg": "Юруково"
+  },
+  {
+    "id": "5218014",
+    "slug": "jabalkovo",
+    "name_en": "Jabalkovo",
+    "name_bg": "Ябълково"
+  },
+  {
+    "id": "5243001",
+    "slug": "javorovec",
+    "name_en": "Javorovec",
+    "name_bg": "Яворовец"
+  },
+  {
+    "id": "5248012",
+    "slug": "jagoda",
+    "name_en": "Jagoda",
+    "name_bg": "Ягода"
+  },
+  {
+    "id": "5218602",
+    "slug": "jagodovo",
+    "name_en": "Jagodovo",
+    "name_bg": "Ягодово"
+  },
+  {
+    "id": "5216420",
+    "slug": "jakoruda",
+    "name_en": "Jakoruda",
+    "name_bg": "Якоруда"
+  },
+  {
+    "id": "5216433",
+    "slug": "yakorudska-mineralna-banya",
+    "name_en": "Yakorudska mineralna banya",
+    "name_bg": "Якорудска минерална баня"
+  },
+  {
+    "id": "5284020",
+    "slug": "jambol",
+    "name_en": "Jambol",
+    "name_bg": "Ямбол"
+  },
+  {
+    "id": "5232007",
+    "slug": "jana",
+    "name_en": "Jana",
+    "name_bg": "Яна"
+  },
+  {
+    "id": "5242002",
+    "slug": "jantra",
+    "name_en": "Jantra",
+    "name_bg": "Янтра"
+  },
+  {
+    "id": "5227020",
+    "slug": "jasen",
+    "name_en": "Jasen",
+    "name_bg": "Ясен"
+  },
+  {
+    "id": "5294014",
+    "slug": "jasenovec",
+    "name_en": "Jasenovec",
+    "name_bg": "Ясеновец"
+  },
+  {
+    "id": "5294005",
+    "slug": "jastrebovo",
+    "name_en": "Jastrebovo",
+    "name_bg": "Ястребово"
+  },
+  {
+    "id": "5256024",
+    "slug": "jahinovo",
+    "name_en": "Jahinovo",
+    "name_bg": "Яхиново"
+  }
+]

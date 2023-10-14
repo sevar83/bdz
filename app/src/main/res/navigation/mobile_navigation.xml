@@ -17,10 +17,4 @@
         android:label="@string/title_timetables"
         tools:layout="@layout/fragment_timetables_pager" />
 
-    <fragment
-        android:id="@+id/navigation_notifications"
-        android:name="bg.bdz.schedule.features.notifications.NotificationsFragment"
-        android:label="@string/title_notifications"
-        tools:layout="@layout/fragment_notifications" />
-
 </navigation>

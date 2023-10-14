@@ -8,9 +8,10 @@
     >
 
     <TextView
-        android:id="@+id/segmentFromTextView"
-        android:layout_width="wrap_content"
+        android:id="@+id/waypointNameTextView"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_weight="1"
         android:layout_marginTop="8dp"
         android:layout_marginBottom="8dp"
         android:layout_marginStart="8dp"
@@ -20,21 +21,7 @@
         />
 
     <TextView
-        android:id="@+id/segmentToTextView"
-        android:layout_width="0dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:layout_marginBottom="8dp"
-        android:layout_marginEnd="8dp"
-        android:layout_weight="100"
-        android:textSize="12sp"
-        android:ellipsize="end"
-        android:maxLines="2"
-        tools:text="ГОРНА ОРЯХОВИЦА 123 123 123 12 3"
-        />
-
-    <TextView
-        android:id="@+id/segmentTrainType"
+        android:id="@+id/waypointTrainType"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textSize="12sp"
@@ -44,8 +31,8 @@
         />
 
     <TextView
-        android:id="@+id/segmentDepartTime"
-        android:layout_width="wrap_content"
+        android:id="@+id/waypointArriveTime"
+        android:layout_width="32sp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textSize="12sp"
@@ -53,13 +40,12 @@
         />
 
     <TextView
-        android:id="@+id/segmentArrivеTime"
-        android:layout_width="wrap_content"
+        android:id="@+id/waypointDepartTime"
+        android:layout_width="32sp"
         android:layout_height="wrap_content"
         android:layout_margin="8dp"
         android:textSize="12sp"
         tools:text="12:31"
         />
-
 
 </LinearLayout>

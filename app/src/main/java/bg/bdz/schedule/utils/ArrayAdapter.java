@@ -328,6 +328,24 @@ public class ArrayAdapter<T> extends BaseAdapter implements Filterable, ThemedSp
     }
 
     /**
+     * Removes an element with the specified {@code index} from the array.
+     *
+     * @param index The object to remove.
+     * @throws UnsupportedOperationException if the underlying data collection is immutable
+     */
+    public void removeAt(int index) {
+        synchronized (mLock) {
+            if (mOriginalValues != null) {
+                mOriginalValues.remove(index);
+            } else {
+                mObjects.remove(index);
+            }
+            mObjectsFromResources = false;
+        }
+        if (mNotifyOnChange) notifyDataSetChanged();
+    }
+
+    /**
      * Remove all elements from the list.
      *
      * @throws UnsupportedOperationException if the underlying data collection is immutable
@@ -353,9 +371,9 @@ public class ArrayAdapter<T> extends BaseAdapter implements Filterable, ThemedSp
     public void sort(@NonNull Comparator<? super T> comparator) {
         synchronized (mLock) {
             if (mOriginalValues != null) {
-                Collections.sort(mOriginalValues, comparator);
+                mOriginalValues.sort(comparator);
             } else {
-                Collections.sort(mObjects, comparator);
+                mObjects.sort(comparator);
             }
         }
         if (mNotifyOnChange) notifyDataSetChanged();
@@ -373,7 +391,6 @@ public class ArrayAdapter<T> extends BaseAdapter implements Filterable, ThemedSp
      * {@link #sort(Comparator)}) automatically call {@link #notifyDataSetChanged}.  If set to
      * false, caller must manually call notifyDataSetChanged() to have the changes
      * reflected in the attached view.
-     *
      * The default is true, and calling notifyDataSetChanged()
      * resets the flag to true.
      *
@@ -638,7 +655,6 @@ public class ArrayAdapter<T> extends BaseAdapter implements Filterable, ThemedSp
         @SuppressWarnings("unchecked")
         @Override
         protected void publishResults(CharSequence constraint, FilterResults results) {
-            //noinspection unchecked
             mObjects.clear();
             mObjects.addAll((Collection<? extends T>) results.values);
 

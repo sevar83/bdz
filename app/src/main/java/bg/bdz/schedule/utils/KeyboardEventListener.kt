@@ -9,7 +9,7 @@ import androidx.lifecycle.LifecycleOwner
 
 class KeyboardEventListener(
         private val activity: FragmentActivity,
-        private val lifecycle: Lifecycle,
+        lifecycle: Lifecycle,
         private val callback: (isOpen: Boolean) -> Unit
 ) : LifecycleEventObserver {
 

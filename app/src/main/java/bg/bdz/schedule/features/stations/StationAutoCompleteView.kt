@@ -6,10 +6,6 @@ import android.view.KeyEvent
 import android.view.inputmethod.EditorInfo
 import bg.bdz.schedule.features.base.InstantAutoCompleteTextView
 
-
-/**
- * Created by Svetlozar Kostadinov on 07.09.19.
- */
 class StationAutoCompleteView @JvmOverloads constructor(
     context: Context,
     attrs: AttributeSet? = null,

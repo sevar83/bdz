@@ -3,20 +3,19 @@ package bg.bdz.schedule.network
 import bg.bdz.schedule.models.Station
 import bg.bdz.schedule.models.TimeTable
 import retrofit2.http.GET
-import retrofit2.http.Query
+import retrofit2.http.Path
 
-/**
- * Created by Svetlozar Kostadinov on 8/28/2019.
- */
 interface TimeTablesService {
 
-    @GET("timeTableCache.php")
+    @GET("/{language}/{station}/arrivals")
     suspend fun getArrivalsTimeTable(
-        @Query(value="s") station: Station
+        @Path("language") language: String = "bg",
+        @Path("station") station: Station.Slug
     ): TimeTable
 
-    @GET("timeTableCache.php?d=1")
+    @GET("/{language}/{station}/departures")
     suspend fun getDeparturesTimeTable(
-        @Query(value="s") station: Station
+        @Path("language") language: String = "bg",
+        @Path("station") station: Station.Slug
     ): TimeTable
 }

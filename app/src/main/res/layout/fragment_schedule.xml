@@ -8,6 +8,7 @@
 
     <include
         layout="@layout/include_empty"
+        android:id="@+id/emptyView"
         android:visibility="gone"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="@+id/errorTextView"
@@ -75,7 +76,7 @@
             android:layout_height="wrap_content"
             android:completionThreshold="1"
             android:digits="@string/allowed_station_chars"
-            android:drawableTint="@color/colorPrimary"
+            android:drawableTint="?colorPrimary"
             android:focusable="false"
             android:focusableInTouchMode="false"
             android:imeOptions="actionSearch"

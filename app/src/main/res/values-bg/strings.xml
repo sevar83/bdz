@@ -3,7 +3,6 @@
     <string name="app_name">БДЖ Разписание</string>
     <string name="title_timetables">Електронно табло</string>
     <string name="title_schedule">Разписание</string>
-    <string name="title_notifications">Известия</string>
     <string name="allowed_station_chars">абвгдежзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ .,-1234567890</string>
     <string name="content_description_swap_icon">Икона за размяна на тръгване и пристигане</string>
     <string name="hint_from">Тръгва от</string>
@@ -33,4 +32,5 @@
         <item quantity="one">%d мин</item>
         <item quantity="other">%d мин</item>
     </plurals>
+    <string name="no_trains">~\\nНяма влакове\\nна таблото\\n~</string>
 </resources>

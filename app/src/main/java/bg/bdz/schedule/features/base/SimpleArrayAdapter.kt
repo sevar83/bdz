@@ -6,9 +6,6 @@ import android.view.ViewGroup
 import androidx.annotation.LayoutRes
 import bg.bdz.schedule.utils.ArrayAdapter
 
-/**
- * Created by Svetlozar Kostadinov on 07.09.19.
- */
 abstract class SimpleArrayAdapter<T, VH : SimpleArrayAdapter.ViewHolder>(
     context: Context,
     @LayoutRes itemLayout: Int,
@@ -17,6 +14,7 @@ abstract class SimpleArrayAdapter<T, VH : SimpleArrayAdapter.ViewHolder>(
 
     open class ViewHolder
 
+    @Suppress("UNCHECKED_CAST")
     override fun getView(position: Int, convertView: View?, parent: ViewGroup): View {
         val viewHolder: VH
         val itemView: View

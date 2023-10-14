@@ -2,7 +2,6 @@
     <string name="app_name">BDZ Schedule</string>
     <string name="title_timetables">Time Table</string>
     <string name="title_schedule">Schedule</string>
-    <string name="title_notifications">Notifications</string>
     <string name="allowed_station_chars">абвгдежзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ .,-1234567890</string>
     <string name="content_description_swap_icon">Swap icon</string>
     <string name="hint_from">From</string>
@@ -17,6 +16,7 @@
     <string name="hint_date">Date</string>
     <string name="today_s">Today, %s</string>
     <string name="tomorrow_s">Tomorrow, %s</string>
+    <string name="no_trains">~\nNo trains\non the timetable\n~</string>
 
     <plurals name="d_transfers">
         <item quantity="one">%d transfer</item>

@@ -1,12 +1,20 @@
 package bg.bdz.schedule.models
 
-/**
- * Created by Svetlozar Kostadinov on 8/29/2019.
- */
+import pl.droidsonroids.jspoon.annotation.Selector
+
 data class TrainStatus(
-    val trainCode: String,
-    val dateTime: String,
-    val station: String,
-    val track: String?,
-    val comments: String?
+    @Selector("div.col-3")
+    var dateTime: String = "",
+
+    @Selector("strong")
+    var station: String = "",
+
+    @Selector("span[data-toggle=tooltip]")
+    var trainCode: String = "",
+
+    @Selector("div[data-station-id]")
+    var track: String? = null,
+
+    @Selector("div.col-lg-3")
+    var comments: String? = null,
 )
