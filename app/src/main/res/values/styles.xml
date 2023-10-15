@@ -1,6 +1,9 @@
 <resources>
 
-    <style name="AppTheme" parent="Theme.Material3.DayNight.NoActionBar" />
+    <style name="AppTheme" parent="Theme.Material3.DynamicColors.DayNight">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
 
     <style name="Widget.StationAutocompleteTextView" parent="Widget.AppCompat.AutoCompleteTextView">
         <item name="android:completionThreshold">1</item>

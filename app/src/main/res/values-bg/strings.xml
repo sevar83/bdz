@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">БДЖ Разписание</string>
+    <string name="app_name">БДЖ</string>
     <string name="title_timetables">Електронно табло</string>
     <string name="title_schedule">Разписание</string>
     <string name="allowed_station_chars">абвгдежзийклмнопрстуфхцчшщъьюяАБВГДЕЖЗИЙКЛМНОПРСТУФХЦЧШЩЪЬЮЯ .,-1234567890</string>
@@ -32,5 +32,5 @@
         <item quantity="one">%d мин</item>
         <item quantity="other">%d мин</item>
     </plurals>
-    <string name="no_trains">~\\nНяма влакове\\nна таблото\\n~</string>
+    <string name="no_trains">~\nНяма информация\n~</string>
 </resources>
